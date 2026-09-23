@@ -1,0 +1,94 @@
+{
+  "app": {
+    "title": "毎朝AIニュース要約",
+    "description": "通勤中やスキマ時間にサクッと読める最新AIニュースまとめ",
+    "max_summary_count": 15,
+    "hours_lookback": 48
+  },
+  "feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "type": "rss",
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "tag": "Claude / Anthropic",
+      "category_desc": "一次情報・公式",
+      "type": "anthropic_scraper",
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/feed/",
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "type": "rss",
+      "priority": 1,
+      "enabled": true
+    },
+    {
+      "name": "Windows Blog",
+      "url": "https://blogs.windows.com/feed/",
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "type": "rss",
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "ITmedia AI+",
+      "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "type": "rss",
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "AINOW",
+      "url": "https://ainow.ai/feed/",
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "type": "rss",
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "Zenn (AI)",
+      "url": "https://zenn.dev/topics/ai/feed",
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "type": "rss",
+      "priority": 2,
+      "enabled": true
+    },
+    {
+      "name": "The Verge (AI)",
+      "url": "https://www.theverge.com/rss/artificial-intelligence/index.xml",
+      "tag": "海外速報",
+      "category_desc": "海外速報・テック動向",
+      "type": "rss",
+      "priority": 3,
+      "enabled": true
+    },
+    {
+      "name": "TechCrunch (AI)",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "tag": "海外スタートアップ",
+      "category_desc": "海外ビジネス・スタートアップ",
+      "type": "rss",
+      "priority": 3,
+      "enabled": true
+    }
+  ],
+  "notification": {
+    "include_web_link": true
+  }
+}

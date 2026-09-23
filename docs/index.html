@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="AIニュース">
+  <meta name="theme-color" content="#0f172a">
+  <title>毎朝AIニュース要約 | 通勤用まとめ</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --accent: #f59e0b;
+      --badge-openai: #10b981;
+      --badge-claude: #d97706;
+      --badge-copilot: #6366f1;
+      --badge-japan: #ec4899;
+      --badge-tech: #06b6d4;
+      --star-color: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 12px;
+      padding-bottom: 70px;
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    header {
+      padding: 14px 0 10px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 10px;
+    }
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .status-badge {
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: #065f46;
+      color: #a7f3d0;
+      font-weight: 600;
+    }
+    .status-badge.offline {
+      background: #831843;
+      color: #fbcfe8;
+    }
+    .meta-bar {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    /* タブコンテナ */
+    .tabs-wrapper {
+      margin-bottom: 12px;
+    }
+    .main-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+    }
+    .main-tab-btn {
+      flex: 1;
+      background: #1e293b;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 8px 4px;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      transition: all 0.2s;
+    }
+    .main-tab-btn.active {
+      background: var(--primary);
+      color: #ffffff;
+      border-color: var(--primary);
+      box-shadow: 0 2px 8px rgba(59, 130, 246, 0.4);
+    }
+    .badge-count {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 1px 6px;
+      border-radius: 9999px;
+      font-size: 0.7rem;
+    }
+    .main-tab-btn.active .badge-count {
+      background: #ffffff;
+      color: var(--primary);
+    }
+
+    .sub-tabs-scroll {
+      display: flex;
+      gap: 6px;
+      overflow-x: auto;
+      padding: 4px 0 6px 0;
+      scrollbar-width: none;
+    }
+    .sub-tabs-scroll::-webkit-scrollbar { display: none; }
+    .filter-btn.site-tab {
+      background: rgba(30, 41, 59, 0.7);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+      transition: all 0.2s;
+    }
+    .filter-btn.site-tab .tab-name {
+      font-weight: 600;
+      font-size: 0.78rem;
+    }
+    .filter-btn.site-tab .tab-desc {
+      font-size: 0.65rem;
+      color: var(--text-muted);
+    }
+    .filter-btn.site-tab.active {
+      background: #3b82f6;
+      border-color: #3b82f6;
+      color: #fff;
+    }
+    .filter-btn.site-tab.active .tab-desc {
+      color: #e0f2fe;
+    }
+
+    /* 記事カード */
+    .news-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 15px;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+      position: relative;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .news-card.is-read {
+      opacity: 0.65;
+      border-color: #273549;
+    }
+    .news-card.is-read .card-title {
+      color: #94a3b8;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+      text-transform: uppercase;
+    }
+    .badge-openai { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+    .badge-claude { background: rgba(217, 119, 6, 0.2); color: #fbbf24; border: 1px solid rgba(217, 119, 6, 0.4); }
+    .badge-copilot { background: rgba(99, 102, 241, 0.2); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.4); }
+    .badge-japan { background: rgba(236, 72, 153, 0.2); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.4); }
+    .badge-tech { background: rgba(6, 182, 212, 0.2); color: #22d3ee; border: 1px solid rgba(6, 182, 212, 0.4); }
+    .badge-default { background: rgba(148, 163, 184, 0.2); color: #cbd5e1; }
+    
+    .source-info {
+      font-size: 0.73rem;
+      color: var(--text-muted);
+    }
+    .cat-pill {
+      font-size: 0.68rem;
+      color: #38bdf8;
+      font-weight: 500;
+    }
+    .stars {
+      color: var(--star-color);
+      font-size: 0.75rem;
+      letter-spacing: -1px;
+    }
+    .read-toggle-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      transition: all 0.2s;
+    }
+    .news-card.is-read .read-toggle-btn {
+      background: #10b981;
+      border-color: #10b981;
+      color: #fff;
+    }
+    .card-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      line-height: 1.38;
+      margin-bottom: 10px;
+      color: #ffffff;
+    }
+    .headline-box {
+      background: rgba(245, 158, 11, 0.12);
+      border-left: 3px solid var(--accent);
+      padding: 8px 10px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+    }
+    .headline-icon { font-size: 0.95rem; line-height: 1.2; }
+    .headline-text {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: #fef3c7;
+      line-height: 1.35;
+    }
+    .points-list {
+      list-style: none;
+      margin-bottom: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .points-list li {
+      font-size: 0.85rem;
+      color: #e2e8f0;
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      line-height: 1.4;
+    }
+    .p-icon {
+      color: var(--primary);
+      font-size: 0.8rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .p-text {
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--border);
+    }
+    .action-btn {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.2s;
+    }
+    .translate-btn {
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    .original-btn {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .empty-state {
+      text-align: center;
+      padding: 40px 16px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <h1>🌅 毎朝AIニュース</h1>
+      <span id="connStatus" class="status-badge">⚡ オンライン</span>
+    </div>
+    <div class="meta-bar">
+      <span>更新: 2026/09/23 22:04 JST</span>
+      <span>計 15 件取得</span>
+    </div>
+  </header>
+
+  <div class="tabs-wrapper">
+    <!-- メインタブ（注目・未読・既読） -->
+    <div class="main-tabs">
+      <button class="main-tab-btn active" onclick="switchMainTab('unread')">
+        <span>📬 未読</span>
+        <span id="unreadCount" class="badge-count">0</span>
+      </button>
+      <button class="main-tab-btn" onclick="switchMainTab('featured')">
+        <span>🌟 本日の注目 (Top 10)</span>
+      </button>
+      <button class="main-tab-btn" onclick="switchMainTab('read')">
+        <span>✅ 既読</span>
+        <span id="readCount" class="badge-count">0</span>
+      </button>
+    </div>
+
+    <!-- サイト別タブ（横スクロール） -->
+    <div class="sub-tabs-scroll">
+      
+        <button class="filter-btn site-tab" data-filter="site" data-site="OpenAI News">
+          <span class="tab-name">OpenAI News</span>
+          <span class="tab-desc">一次情報・公式</span>
+        </button>
+        
+        <button class="filter-btn site-tab" data-filter="site" data-site="Anthropic News">
+          <span class="tab-name">Anthropic News</span>
+          <span class="tab-desc">一次情報・公式</span>
+        </button>
+        
+        <button class="filter-btn site-tab" data-filter="site" data-site="Microsoft Official">
+          <span class="tab-name">Microsoft Official</span>
+          <span class="tab-desc">一次情報・公式</span>
+        </button>
+        
+        <button class="filter-btn site-tab" data-filter="site" data-site="Windows Blog">
+          <span class="tab-name">Windows Blog</span>
+          <span class="tab-desc">一次情報・PC</span>
+        </button>
+        
+        <button class="filter-btn site-tab" data-filter="site" data-site="ITmedia AI+">
+          <span class="tab-name">ITmedia AI+</span>
+          <span class="tab-desc">国内ニュース・導入事例</span>
+        </button>
+        
+    </div>
+  </div>
+
+  <main id="newsContainer">
+    
+        <article class="news-card" id="art-0" data-id="art-0" data-source="OpenAI News" data-importance="5">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 5/5">★★★★★</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-0')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">OpenAI、AIモデルの第三者安全性評価に関する原則と優先課題を策定</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI outlines priorities and principles for rigorous, secure, and independent ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/priorities-principles-third-party-assessments" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-0')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/priorities-principles-third-party-assessments" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-0')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-1" data-id="art-1" data-source="OpenAI News" data-importance="5">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 5/5">★★★★★</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-1')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">GPT-6 Astraの導入によりリサーチ業務の所要時間とコストを半減</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market da...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/parallel-cuts-time-and-cost-with-astra" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-1')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/parallel-cuts-time-and-cost-with-astra" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-1')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-2" data-id="art-2" data-source="OpenAI News" data-importance="5">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 5/5">★★★★★</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-2')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">OpenAI、推論性能と視覚認識を極めた新フラッグシップモデル「GPT-6 Sol/Luna」を発表</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/introducing-gpt-6-sol-and-luna" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-2')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/introducing-gpt-6-sol-and-luna" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-2')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-3" data-id="art-3" data-source="OpenAI News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-3')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">GPT-6向けプロンプトキャッシュ技術が大幅進化、APIコストと応答遅延を低減</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnos...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/better-prompt-caching-for-gpt-6" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-3')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/better-prompt-caching-for-gpt-6" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-3')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-4" data-id="art-4" data-source="OpenAI News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-4')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">GrabとOpenAIが東南アジア地域で実践的AIスキルトレーニングを共同展開</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 p...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-4')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-4')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-5" data-id="art-5" data-source="OpenAI News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-openai">ChatGPT / OpenAI</span>
+              <span class="source-info">OpenAI News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-5')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">OpenAI extends cyber access to Ukraine for civilian defense</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI is extending access to its Daybreak program to the Government of Ukraine ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-5')">🌐 日本語で読む</a>
+            <a href="https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-5')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-6" data-id="art-6" data-source="Anthropic News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-claude">Claude / Anthropic</span>
+              <span class="source-info">Anthropic News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-6')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">Anthropic、自律型Claudeモデルの安全性確保と不正アクセス防止策を強化</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Announcements Aug 31, 2026 Improving our alignment and security efforts On July ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-6')">🌐 日本語で読む</a>
+            <a href="https://www.anthropic.com/news/improving-alignment-security-efforts" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-6')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-7" data-id="art-7" data-source="Anthropic News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-claude">Claude / Anthropic</span>
+              <span class="source-info">Anthropic News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-7')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">Anthropic、AIエージェントのハードウェア安全操作規格「MHS」プレビュー公開</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Announcements Aug 27, 2026 Previewing the Model Hardware Standard We’re opening ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/model-hardware-standard-research-preview" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-7')">🌐 日本語で読む</a>
+            <a href="https://www.anthropic.com/news/model-hardware-standard-research-preview" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-7')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-8" data-id="art-8" data-source="Anthropic News" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-claude">Claude / Anthropic</span>
+              <span class="source-info">Anthropic News <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-8')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">Anthropicとアクセンチュア、企業向け組込み型AI評価システムでパートナーシップ締結</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-8')">🌐 日本語で読む</a>
+            <a href="https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-8')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-9" data-id="art-9" data-source="Microsoft Official" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-copilot">Copilot / Microsoft</span>
+              <span class="source-info">Microsoft Official <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-9')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">マイクロソフト自社のAI変革プロセスから得られた知見と現場の教訓</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Microsoftに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>AI is reshaping work faster than any organization has fully mastered. Across ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-9')">🌐 日本語で読む</a>
+            <a href="https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-9')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-10" data-id="art-10" data-source="Microsoft Official" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-copilot">Copilot / Microsoft</span>
+              <span class="source-info">Microsoft Official <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-10')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">マイクロソフト、教育分野におけるAI安全利用と生徒の学習強化コミットメントを発表</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Microsoftに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>Microsoft has been in the business of education for five decades. Since the e...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-10')">🌐 日本語で読む</a>
+            <a href="https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-10')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-11" data-id="art-11" data-source="Microsoft Official" data-importance="4">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-copilot">Copilot / Microsoft</span>
+              <span class="source-info">Microsoft Official <span class="cat-pill">(一次情報・公式)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 4/5">★★★★☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-11')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">The yield imperative: Turning AI infrastructure into useful intelligence</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Microsoftに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>As we enter the next era, what will be the defining measure of our progress? ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-11')">🌐 日本語で読む</a>
+            <a href="https://blogs.microsoft.com/blog/2026/09/01/the-yield-imperative-turning-ai-infrastructure-into-useful-intelligence/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-11')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-12" data-id="art-12" data-source="Windows Blog" data-importance="3">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-copilot">Copilot / Windows</span>
+              <span class="source-info">Windows Blog <span class="cat-pill">(一次情報・PC)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 3/5">★★★☆☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-12')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">New in Edge for developers – Create better components and make your site agent-ready</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Windowsに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>Welcome back to <em>New in Edge for developers</em>, our recurring roundup of...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-12')">🌐 日本語で読む</a>
+            <a href="https://blogs.windows.com/msedgedev/2026/09/21/new-in-edge-for-developers-create-better-components-and-make-your-site-agent-ready/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-12')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-13" data-id="art-13" data-source="Windows Blog" data-importance="3">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-copilot">Copilot / Windows</span>
+              <span class="source-info">Windows Blog <span class="cat-pill">(一次情報・PC)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 3/5">★★★☆☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-13')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">Beyond the Build – September 2026</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Windowsに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p><em>Beyond the Build is a monthly update from Marcus Ash, CVP Design and Rese...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.windows.com/windows-insider/2026/09/21/beyond-the-build-september-2026/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-13')">🌐 日本語で読む</a>
+            <a href="https://blogs.windows.com/windows-insider/2026/09/21/beyond-the-build-september-2026/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-13')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+        <article class="news-card" id="art-14" data-id="art-14" data-source="ITmedia AI+" data-importance="3">
+          <div class="card-header">
+            <div class="header-left">
+              <span class="badge badge-japan">国内ビジネス</span>
+              <span class="source-info">ITmedia AI+ <span class="cat-pill">(国内ニュース・導入事例)</span></span>
+            </div>
+            <div class="header-right">
+              <span class="stars" title="注目度: 3/5">★★★☆☆</span>
+              <button class="read-toggle-btn" onclick="toggleRead('art-14')" title="既読/未読を切り替え">
+                <span class="read-check">✓</span>
+              </button>
+            </div>
+          </div>
+          <h2 class="card-title">SpaceXAI、「Grok 4.7」発表　コーディングと知識労働向けで同社最高性能、価格は据え置き</h2>
+          <div class="headline-box">
+            <span class="headline-icon">⚡</span>
+            <span class="headline-text">ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。</span>
+          </div>
+          <ul class="points-list">
+            <li><span class='p-icon'>🔹</span><div class='p-text'>国内ビジネスに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>SpaceXAIはAIモデル「Grok 4.7」を発表した。前モデルと同価格・同速度を維持しつつ大規模なベースモデルを採用し、コーディングや長時間の業務タスク性...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+          </ul>
+          <div class="card-footer">
+            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.itmedia.co.jp/news/article/2609/22/2000001668/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-14')">🌐 日本語で読む</a>
+            <a href="https://www.itmedia.co.jp/news/article/2609/22/2000001668/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-14')">原文リンク &rarr;</a>
+          </div>
+        </article>
+        
+    <div id="emptyState" class="empty-state">
+      🎉 該当する記事はありません
+    </div>
+  </main>
+
+  <script>
+    // サービスワーカー登録（オフライン対応）
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js').then(reg => {
+        console.log('SW registered:', reg.scope);
+      }).catch(err => {
+        console.log('SW registration failed:', err);
+      });
+    }
+
+    // オンライン/圏外判定
+    function updateOnlineStatus() {
+      const el = document.getElementById('connStatus');
+      if (navigator.onLine) {
+        el.textContent = '⚡ オンライン';
+        el.className = 'status-badge';
+      } else {
+        el.textContent = '📶 圏外 (オフライン保存中)';
+        el.className = 'status-badge offline';
+      }
+    }
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+    updateOnlineStatus();
+
+    // 既読/未読の管理 (localStorage)
+    const STORAGE_KEY = 'ai_news_read_ids_v1';
+    function getReadIds() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+      } catch (e) {
+        return [];
+      }
+    }
+    function saveReadIds(ids) {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
+      } catch (e) {}
+    }
+
+    function markAsRead(id) {
+      const ids = getReadIds();
+      if (!ids.includes(id)) {
+        ids.push(id);
+        saveReadIds(ids);
+        applyReadState();
+        renderView();
+      }
+    }
+
+    function toggleRead(id) {
+      let ids = getReadIds();
+      if (ids.includes(id)) {
+        ids = ids.filter(x => x !== id);
+      } else {
+        ids.push(id);
+      }
+      saveReadIds(ids);
+      applyReadState();
+      renderView();
+    }
+
+    function applyReadState() {
+      const readIds = getReadIds();
+      const allCards = document.querySelectorAll('.news-card');
+      let readCount = 0;
+      let unreadCount = 0;
+
+      allCards.forEach(card => {
+        const id = card.getAttribute('data-id');
+        if (readIds.includes(id)) {
+          card.classList.add('is-read');
+          readCount++;
+        } else {
+          card.classList.remove('is-read');
+          unreadCount++;
+        }
+      });
+
+      document.getElementById('readCount').textContent = readCount;
+      document.getElementById('unreadCount').textContent = unreadCount;
+    }
+
+    // 表示制御（タブの切り替え）
+    let currentTab = 'unread'; // 'unread' | 'featured' | 'read' | 'site'
+    let currentSite = '';
+
+    function switchMainTab(tab) {
+      currentTab = tab;
+      currentSite = '';
+      document.querySelectorAll('.main-tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.filter-btn.site-tab').forEach(btn => btn.classList.remove('active'));
+
+      if (tab === 'unread') {
+        document.querySelectorAll('.main-tab-btn')[0].classList.add('active');
+      } else if (tab === 'featured') {
+        document.querySelectorAll('.main-tab-btn')[1].classList.add('active');
+      } else if (tab === 'read') {
+        document.querySelectorAll('.main-tab-btn')[2].classList.add('active');
+      }
+      renderView();
+    }
+
+    // サイトタブのクリックリスナー
+    document.querySelectorAll('.filter-btn.site-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const site = btn.getAttribute('data-site');
+        document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.filter-btn.site-tab').forEach(b => b.classList.remove('active'));
+        
+        btn.classList.add('active');
+        currentTab = 'site';
+        currentSite = site;
+        renderView();
+      });
+    });
+
+    function renderView() {
+      const readIds = getReadIds();
+      const cards = Array.from(document.querySelectorAll('.news-card'));
+      const container = document.getElementById('newsContainer');
+      const emptyState = document.getElementById('emptyState');
+      let visibleCount = 0;
+
+      if (currentTab === 'featured') {
+        // 注目度（星）順にソートして上位10件を表示
+        cards.sort((a, b) => {
+          return parseInt(b.getAttribute('data-importance')) - parseInt(a.getAttribute('data-importance'));
+        });
+        // コンテナ内に再配置
+        cards.forEach((card, index) => {
+          container.insertBefore(card, emptyState);
+          if (index < 10) {
+            card.style.display = 'block';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      } else {
+        cards.forEach(card => {
+          const id = card.getAttribute('data-id');
+          const isRead = readIds.includes(id);
+          const site = card.getAttribute('data-source');
+
+          let show = false;
+          if (currentTab === 'unread') {
+            show = !isRead;
+          } else if (currentTab === 'read') {
+            show = isRead;
+          } else if (currentTab === 'site') {
+            show = (site === currentSite);
+          }
+
+          if (show) {
+            card.style.display = 'block';
+            visibleCount++;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+
+      emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+    }
+
+    // 初期化実行
+    applyReadState();
+    renderView();
+  </script>
+</body>
+</html>
