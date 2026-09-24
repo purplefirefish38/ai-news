@@ -90,5 +90,9 @@
   ],
   "notification": {
     "include_web_link": true
+  },
+  "auth": {
+    "enabled": true,
+    "passcode": "0924"
   }
 }

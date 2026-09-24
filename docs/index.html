@@ -35,7 +35,134 @@
       padding-bottom: 70px;
       max-width: 680px;
       margin: 0 auto;
+      min-height: 100vh;
     }
+
+    /* ロック画面（暗証番号入力画面） */
+    #lockScreen {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: #090d16;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .lock-box {
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .lock-icon {
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+    }
+    .lock-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .lock-desc {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    .pin-dots {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      height: 20px;
+      align-items: center;
+    }
+    .pin-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #475569;
+      transition: all 0.2s;
+    }
+    .pin-dot.filled {
+      background: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+      transform: scale(1.15);
+    }
+    .keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .key-btn {
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid var(--border);
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 600;
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      margin: 0 auto;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      transition: all 0.15s;
+    }
+    .key-btn:active {
+      background: var(--primary);
+      transform: scale(0.92);
+    }
+    .key-btn.action-key {
+      font-size: 1rem;
+      background: transparent;
+      border-color: transparent;
+      color: var(--text-muted);
+    }
+    .remember-device {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+      cursor: pointer;
+    }
+    .remember-device input {
+      accent-color: var(--primary);
+      width: 16px;
+      height: 16px;
+    }
+    .error-msg {
+      color: #ef4444;
+      font-size: 0.8rem;
+      font-weight: 600;
+      height: 20px;
+      margin-top: 10px;
+    }
+    .shake {
+      animation: shake 0.4s ease-in-out;
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      20%, 60% { transform: translateX(-10px); }
+      40%, 80% { transform: translateX(10px); }
+    }
+
+    /* メインコンテンツ（認証後に表示） */
+    #mainContent {
+      display: none;
+    }
+
     header {
       padding: 14px 0 10px 0;
       border-bottom: 1px solid var(--border);
@@ -74,7 +201,6 @@
       justify-content: space-between;
     }
     
-    /* タブコンテナ */
     .tabs-wrapper {
       margin-bottom: 12px;
     }
@@ -303,16 +429,31 @@
       align-items: center;
       gap: 4px;
       transition: all 0.2s;
+    .read-btn {
+      background: #2563eb;
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: none;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);
     }
-    .translate-btn {
-      background: rgba(59, 130, 246, 0.15);
-      color: #60a5fa;
+    .read-btn:hover {
+      background: #1d4ed8;
+    }
+    .safari-tip {
+      background: rgba(59, 130, 246, 0.12);
       border: 1px solid rgba(59, 130, 246, 0.3);
-    }
-    .original-btn {
-      background: rgba(255, 255, 255, 0.05);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-size: 0.76rem;
+      color: #93c5fd;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.35;
     }
     .empty-state {
       text-align: center;
@@ -324,36 +465,82 @@
   </style>
 </head>
 <body>
-  <header>
-    <div class="header-top">
-      <h1>🌅 毎朝AIニュース</h1>
-      <span id="connStatus" class="status-badge">⚡ オンライン</span>
-    </div>
-    <div class="meta-bar">
-      <span>更新: 2026/09/24 08:27 JST</span>
-      <span>計 15 件取得</span>
-    </div>
-  </header>
 
-  <div class="tabs-wrapper">
-    <!-- メインタブ（注目・未読・既読） -->
-    <div class="main-tabs">
-      <button class="main-tab-btn active" onclick="switchMainTab('unread')">
-        <span>📬 未読</span>
-        <span id="unreadCount" class="badge-count">0</span>
-      </button>
-      <button class="main-tab-btn" onclick="switchMainTab('featured')">
-        <span>🌟 本日の注目 (Top 10)</span>
-      </button>
-      <button class="main-tab-btn" onclick="switchMainTab('read')">
-        <span>✅ 既読</span>
-        <span id="readCount" class="badge-count">0</span>
-      </button>
-    </div>
-
-    <!-- サイト別タブ（横スクロール） -->
-    <div class="sub-tabs-scroll">
+  <!-- 暗証番号ロック画面 -->
+  <div id="lockScreen" style="">
+    <div class="lock-box">
+      <div class="lock-icon">🔒</div>
+      <div class="lock-title">AIニュース（専用）</div>
+      <div class="lock-desc">暗証番号を入力してロックを解除してください</div>
       
+      <div class="pin-dots">
+        <div class="pin-dot" id="dot-0"></div>
+        <div class="pin-dot" id="dot-1"></div>
+        <div class="pin-dot" id="dot-2"></div>
+        <div class="pin-dot" id="dot-3"></div>
+      </div>
+
+      <div class="keypad">
+        <button class="key-btn" onclick="pressKey('1')">1</button>
+        <button class="key-btn" onclick="pressKey('2')">2</button>
+        <button class="key-btn" onclick="pressKey('3')">3</button>
+        <button class="key-btn" onclick="pressKey('4')">4</button>
+        <button class="key-btn" onclick="pressKey('5')">5</button>
+        <button class="key-btn" onclick="pressKey('6')">6</button>
+        <button class="key-btn" onclick="pressKey('7')">7</button>
+        <button class="key-btn" onclick="pressKey('8')">8</button>
+        <button class="key-btn" onclick="pressKey('9')">9</button>
+        <button class="key-btn action-key" onclick="clearPin()">クリア</button>
+        <button class="key-btn" onclick="pressKey('0')">0</button>
+        <button class="key-btn action-key" onclick="backspacePin()">⌫</button>
+      </div>
+
+      <label class="remember-device">
+        <input type="checkbox" id="rememberDevice" checked>
+        <span>この端末を記憶する（次回から自動解除）</span>
+      </label>
+
+      <div id="errorMsg" class="error-msg"></div>
+    </div>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <div id="mainContent" style="">
+    <header>
+      <div class="header-top">
+        <h1>🌅 毎朝AIニュース</h1>
+        <span id="connStatus" class="status-badge">⚡ オンライン</span>
+      </div>
+      <div class="meta-bar">
+        <span>更新: 2026/09/24 21:54 JST</span>
+        <span>計 15 件取得</span>
+      </div>
+    </header>
+
+    <div class="safari-tip">
+      <span>💡</span>
+      <div><strong>iPhoneの方へ:</strong> 英語記事を開いた後、画面左下の「<strong>あA</strong>」（または『翻訳』アイコン）を押すと一瞬で自然な日本語になります！</div>
+    </div>
+
+    <div class="tabs-wrapper">
+      <!-- メインタブ（注目・未読・既読） -->
+      <div class="main-tabs">
+        <button class="main-tab-btn active" onclick="switchMainTab('unread')">
+          <span>📬 未読</span>
+          <span id="unreadCount" class="badge-count">0</span>
+        </button>
+        <button class="main-tab-btn" onclick="switchMainTab('featured')">
+          <span>🌟 本日の注目 (Top 10)</span>
+        </button>
+        <button class="main-tab-btn" onclick="switchMainTab('read')">
+          <span>✅ 既読</span>
+          <span id="readCount" class="badge-count">0</span>
+        </button>
+      </div>
+
+      <!-- サイト別タブ（横スクロール） -->
+      <div class="sub-tabs-scroll">
+        
         <button class="filter-btn site-tab" data-filter="site" data-site="OpenAI News">
           <span class="tab-name">OpenAI News</span>
           <span class="tab-desc">一次情報・公式</span>
@@ -369,11 +556,11 @@
           <span class="tab-desc">一次情報・公式</span>
         </button>
         
+      </div>
     </div>
-  </div>
 
-  <main id="newsContainer">
-    
+    <main id="newsContainer">
+      
         <article class="news-card" id="art-0" data-id="art-0" data-source="OpenAI News" data-importance="5">
           <div class="card-header">
             <div class="header-left">
@@ -387,17 +574,16 @@
               </button>
             </div>
           </div>
-          <h2 class="card-title">GPT-6向けプロンプトキャッシュ技術が大幅進化、APIコストと応答遅延を低減</h2>
+          <h2 class="card-title">GrabとOpenAIが東南アジア地域で実践的AIスキルトレーニングを共同展開</h2>
           <div class="headline-box">
             <span class="headline-icon">⚡</span>
             <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
           </div>
           <ul class="points-list">
-            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnos...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 p...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/better-prompt-caching-for-gpt-6" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-0')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/better-prompt-caching-for-gpt-6" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-0')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-0')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -414,17 +600,16 @@
               </button>
             </div>
           </div>
-          <h2 class="card-title">GrabとOpenAIが東南アジア地域で実践的AIスキルトレーニングを共同展開</h2>
+          <h2 class="card-title">Airbnb widens access to GPT-6 Astra and OpenAI frontier models</h2>
           <div class="headline-box">
             <span class="headline-icon">⚡</span>
             <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
           </div>
           <ul class="points-list">
-            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 p...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models t...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-1')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/grab-openai-ai-skills-southeast-asia" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-1')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/airbnb-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-1')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -441,17 +626,16 @@
               </button>
             </div>
           </div>
-          <h2 class="card-title">Airbnb widens access to GPT-6 Astra and OpenAI frontier models</h2>
+          <h2 class="card-title">ChatGPT Ads expands to Southeast Asia and Taiwan</h2>
           <div class="headline-box">
             <span class="headline-icon">⚡</span>
             <span class="headline-text">OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。</span>
           </div>
           <ul class="points-list">
-            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models t...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
+            <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesse...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/airbnb-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-2')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/airbnb-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-2')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-2')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -477,8 +661,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>MentalHealthBench is an expert-informed benchmark for evaluating helpful and saf...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/introducing-mentalhealthbench" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-3')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/introducing-mentalhealthbench" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-3')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/introducing-mentalhealthbench" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-3')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -504,8 +687,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI CEO Sam Altman discusses AI safety, human control, and international coop...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/sam-altman-un-security-council-remarks" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-4')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/sam-altman-un-security-council-remarks" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-4')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/sam-altman-un-security-council-remarks" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-4')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -531,8 +713,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>GPT-6 Astra produces more structured, context-aware legal documents, freeing law...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/harvey-from-context-to-confidence-with-astra" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-5')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/harvey-from-context-to-confidence-with-astra" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-5')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/harvey-from-context-to-confidence-with-astra" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-5')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -558,8 +739,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>With GPT‑6 Astra, invideo plans edits with greater precision, improves color cor...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/invideo-builds-with-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-6')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/invideo-builds-with-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-6')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/invideo-builds-with-gpt-6-astra" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-6')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -585,8 +765,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, an...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/ringg" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-7')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/ringg" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-7')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/ringg" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-7')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -612,8 +791,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>OpenAI is extending access to its Daybreak program to the Government of Ukraine ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-8')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-8')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-8')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -639,8 +817,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>ChatGPT / OpenAIに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Marking two years of OpenAI Academy and bringing AI skills to even more communit...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://openai.com/index/two-years-of-openai-academy" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-9')">🌐 日本語で読む</a>
-            <a href="https://openai.com/index/two-years-of-openai-academy" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-9')">原文リンク &rarr;</a>
+            <a href="https://openai.com/index/two-years-of-openai-academy" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-9')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -666,8 +843,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like rep...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-10')">🌐 日本語で読む</a>
-            <a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-10')">原文リンク &rarr;</a>
+            <a href="https://www.anthropic.com/news/claude-discovers-novel-enzyme-system" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-10')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -693,8 +869,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-11')">🌐 日本語で読む</a>
-            <a href="https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-11')">原文リンク &rarr;</a>
+            <a href="https://www.anthropic.com/news/accenture-embedded-evaluation" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-11')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -720,8 +895,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>Claude / Anthropicに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://www.anthropic.com/news/life-sciences-verification-program" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-12')">🌐 日本語で読む</a>
-            <a href="https://www.anthropic.com/news/life-sciences-verification-program" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-12')">原文リンク &rarr;</a>
+            <a href="https://www.anthropic.com/news/life-sciences-verification-program" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-12')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -747,8 +921,7 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Microsoftに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>AI is reshaping work faster than any organization has fully mastered. Across ...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-13')">🌐 日本語で読む</a>
-            <a href="https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-13')">原文リンク &rarr;</a>
+            <a href="https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-13')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
@@ -774,17 +947,124 @@
             <li><span class='p-icon'>🔹</span><div class='p-text'>Copilot / Microsoftに関する重要アップデートと最新機能の公開</div></li><li><span class='p-icon'>🔹</span><div class='p-text'><p>Microsoft has been in the business of education for five decades. Since the e...</div></li><li><span class='p-icon'>🔹</span><div class='p-text'>今後の業務活用や関連サービスへの展開に注目が集まります</div></li>
           </ul>
           <div class="card-footer">
-            <a href="https://translate.google.com/translate?sl=auto&tl=ja&u=https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('art-14')">🌐 日本語で読む</a>
-            <a href="https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('art-14')">原文リンク &rarr;</a>
+            <a href="https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('art-14')">🔗 記事を読む（Safari翻訳対応） &rarr;</a>
           </div>
         </article>
         
-    <div id="emptyState" class="empty-state">
-      🎉 該当する記事はありません
-    </div>
-  </main>
+      <div id="emptyState" class="empty-state">
+        🎉 該当する記事はありません
+      </div>
+    </main>
+  </div>
 
   <script>
+    // 認証設定
+    const AUTH_ENABLED = true;
+    const EXPECTED_HASH = "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4";
+    const STORAGE_AUTH_KEY = "ai_news_auth_token_v2";
+
+    let currentPin = "";
+
+    // SHA-256計算関数 (Web Crypto API)
+    async function sha256(str) {
+      const buf = new TextEncoder().encode(str);
+      const digest = await crypto.subtle.digest('SHA-256', buf);
+      return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }
+
+    // 認証チェック
+    async function checkAuth() {
+      if (!AUTH_ENABLED) {
+        unlockScreen();
+        return;
+      }
+      const saved = localStorage.getItem(STORAGE_AUTH_KEY);
+      if (saved === EXPECTED_HASH) {
+        unlockScreen();
+      } else {
+        document.getElementById('lockScreen').style.display = 'flex';
+        document.getElementById('mainContent').style.display = 'none';
+      }
+    }
+
+    function unlockScreen() {
+      const lock = document.getElementById('lockScreen');
+      if (lock) lock.style.display = 'none';
+      document.getElementById('mainContent').style.display = 'block';
+      applyReadState();
+      renderView();
+    }
+
+    async function pressKey(num) {
+      if (currentPin.length >= 8) return;
+      currentPin += num;
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+
+      // 4文字以上で検証チェック
+      if (currentPin.length >= 4) {
+        const hash = await sha256(currentPin);
+        if (hash === EXPECTED_HASH) {
+          if (document.getElementById('rememberDevice').checked) {
+            localStorage.setItem(STORAGE_AUTH_KEY, EXPECTED_HASH);
+          }
+          unlockScreen();
+          currentPin = "";
+          updateDots();
+        } else if (currentPin.length >= 6) {
+          triggerError();
+        }
+      }
+    }
+
+    function updateDots() {
+      for (let i = 0; i < 4; i++) {
+        const dot = document.getElementById('dot-' + i);
+        if (dot) {
+          if (i < currentPin.length) {
+            dot.classList.add('filled');
+          } else {
+            dot.classList.remove('filled');
+          }
+        }
+      }
+    }
+
+    function backspacePin() {
+      currentPin = currentPin.slice(0, -1);
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+    }
+
+    function clearPin() {
+      currentPin = "";
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+    }
+
+    function triggerError() {
+      const lockBox = document.querySelector('.lock-box');
+      lockBox.classList.add('shake');
+      document.getElementById('errorMsg').textContent = "暗証番号が正しくありません";
+      setTimeout(() => {
+        lockBox.classList.remove('shake');
+        clearPin();
+      }, 500);
+    }
+
+    // PCキーボード入力対応
+    window.addEventListener('keydown', (e) => {
+      if (document.getElementById('lockScreen').style.display !== 'none') {
+        if (e.key >= '0' && e.key <= '9') {
+          pressKey(e.key);
+        } else if (e.key === 'Backspace') {
+          backspacePin();
+        } else if (e.key === 'Escape') {
+          clearPin();
+        }
+      }
+    });
+
     // サービスワーカー登録（オフライン対応）
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('./sw.js').then(reg => {
@@ -863,12 +1143,14 @@
         }
       });
 
-      document.getElementById('readCount').textContent = readCount;
-      document.getElementById('unreadCount').textContent = unreadCount;
+      const rEl = document.getElementById('readCount');
+      const uEl = document.getElementById('unreadCount');
+      if (rEl) rEl.textContent = readCount;
+      if (uEl) uEl.textContent = unreadCount;
     }
 
     // 表示制御（タブの切り替え）
-    let currentTab = 'unread'; // 'unread' | 'featured' | 'read' | 'site'
+    let currentTab = 'unread';
     let currentSite = '';
 
     function switchMainTab(tab) {
@@ -887,7 +1169,6 @@
       renderView();
     }
 
-    // サイトタブのクリックリスナー
     document.querySelectorAll('.filter-btn.site-tab').forEach(btn => {
       btn.addEventListener('click', () => {
         const site = btn.getAttribute('data-site');
@@ -906,14 +1187,13 @@
       const cards = Array.from(document.querySelectorAll('.news-card'));
       const container = document.getElementById('newsContainer');
       const emptyState = document.getElementById('emptyState');
+      if (!container) return;
       let visibleCount = 0;
 
       if (currentTab === 'featured') {
-        // 注目度（星）順にソートして上位10件を表示
         cards.sort((a, b) => {
           return parseInt(b.getAttribute('data-importance')) - parseInt(a.getAttribute('data-importance'));
         });
-        // コンテナ内に再配置
         cards.forEach((card, index) => {
           container.insertBefore(card, emptyState);
           if (index < 10) {
@@ -947,12 +1227,11 @@
         });
       }
 
-      emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+      if (emptyState) emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
     }
 
-    // 初期化実行
-    applyReadState();
-    renderView();
+    // 初回認証チェック起動
+    checkAuth();
   </script>
 </body>
 </html>

@@ -62,7 +62,8 @@ def main():
 
     # 4. オフライン対応Webページ生成
     logger.info("Step 4: オフライン対応の軽量Webページ（docs/index.html）を生成しています...")
-    web_page_path = generate_web_page(summaries, output_dir="docs")
+    auth_cfg = config.get("auth", {})
+    web_page_path = generate_web_page(summaries, output_dir="docs", auth_cfg=auth_cfg)
     logger.info(f"Webページ生成完了: {web_page_path}")
 
     # 5. 通知の送信

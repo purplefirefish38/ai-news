@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026/09/24 08:27 JST",
+  "updated_at": "2026/09/24 21:54 JST",
   "articles": [
-    {
-      "title_ja": "GPT-6向けプロンプトキャッシュ技術が大幅進化、APIコストと応答遅延を低減",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnos...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6"
-    },
     {
       "title_ja": "GrabとOpenAIが東南アジア地域で実践的AIスキルトレーニングを共同展開",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -42,6 +28,20 @@
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/airbnb-gpt-6-astra"
+    },
+    {
+      "title_ja": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesse...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
     },
     {
       "title_ja": "【新発表】MentalHealthBench",

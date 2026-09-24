@@ -1,14 +1,15 @@
 """
 オフライン対応・超軽量Webページ（PWA）生成モジュール
 未読/既読管理（localStorage）、本日の注目Top10、サイト別タブ（ジャンル解説付き）、
-星評価（1〜5）、Google翻訳リンクを完備したHTMLを生成します。
+星評価（1〜5）、Google翻訳リンク、および暗証番号（パスコード）ロック画面を完備。
 """
 
 import os
 import json
 import logging
+import hashlib
 from datetime import datetime, timezone, timedelta
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 logger = logging.getLogger(__name__)
 
@@ -39,7 +40,7 @@ def ensure_pwa_assets(output_dir: str):
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     sw_code = """// Service Worker: オフライン（電波圏外）キャッシュ
-const CACHE_NAME = 'ai-news-v2';
+const CACHE_NAME = 'ai-news-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -102,9 +103,14 @@ def get_tag_badge_class(tag: str) -> str:
     return "badge-default"
 
 
-def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str:
-    """未読/既読、注目Top10、サイト別タブを完備したHTMLを構築"""
+def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_cfg: Optional[Dict[str, Any]] = None) -> str:
+    """未読/既読、注目Top10、サイト別タブ、暗証番号認証を完備したHTMLを構築"""
     
+    auth_cfg = auth_cfg or {}
+    auth_enabled = auth_cfg.get("enabled", True)
+    passcode = str(auth_cfg.get("passcode", "1234"))
+    passcode_hash = hashlib.sha256(passcode.encode("utf-8")).hexdigest()
+
     # サイト（メディア）一覧の集計
     site_map = {}
     for s in summaries:
@@ -128,9 +134,8 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
         importance = item.get("importance", 3)
         stars = "★" * importance + "☆" * (5 - importance)
 
-        # 翻訳URL
-        trans_url = f"https://translate.google.com/translate?sl=auto&tl=ja&u={url}"
-
+        is_overseas = ("国内" not in tag and "技術" not in tag)
+        btn_label = "🔗 記事を読む（Safari翻訳対応）" if is_overseas else "🔗 記事を読む"
         points_li = "".join([f"<li><span class='p-icon'>🔹</span><div class='p-text'>{p}</div></li>" for p in points])
 
         cards_html += f"""
@@ -156,13 +161,11 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
             {points_li}
           </ul>
           <div class="card-footer">
-            <a href="{trans_url}" target="_blank" rel="noopener noreferrer" class="action-btn translate-btn" onclick="markAsRead('{card_id}')">🌐 日本語で読む</a>
-            <a href="{url}" target="_blank" rel="noopener noreferrer" class="action-btn original-btn" onclick="markAsRead('{card_id}')">原文リンク &rarr;</a>
+            <a href="{url}" target="_blank" rel="noopener noreferrer" class="action-btn read-btn" onclick="markAsRead('{card_id}')">{btn_label} &rarr;</a>
           </div>
         </article>
         """
 
-    # サイト別タブボタンの生成
     site_tabs_html = ""
     for s_name, c_desc in site_map.items():
         site_tabs_html += f"""
@@ -209,7 +212,134 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
       padding-bottom: 70px;
       max-width: 680px;
       margin: 0 auto;
+      min-height: 100vh;
     }}
+
+    /* ロック画面（暗証番号入力画面） */
+    #lockScreen {{
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: #090d16;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }}
+    .lock-box {{
+      width: 100%;
+      max-width: 320px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }}
+    .lock-icon {{
+      font-size: 2.4rem;
+      margin-bottom: 12px;
+    }}
+    .lock-title {{
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }}
+    .lock-desc {{
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }}
+    .pin-dots {{
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 24px;
+      height: 20px;
+      align-items: center;
+    }}
+    .pin-dot {{
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid #475569;
+      transition: all 0.2s;
+    }}
+    .pin-dot.filled {{
+      background: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
+      transform: scale(1.15);
+    }}
+    .keypad {{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px 20px;
+      width: 100%;
+      margin-bottom: 20px;
+    }}
+    .key-btn {{
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid var(--border);
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 600;
+      width: 68px;
+      height: 68px;
+      border-radius: 50%;
+      margin: 0 auto;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      transition: all 0.15s;
+    }}
+    .key-btn:active {{
+      background: var(--primary);
+      transform: scale(0.92);
+    }}
+    .key-btn.action-key {{
+      font-size: 1rem;
+      background: transparent;
+      border-color: transparent;
+      color: var(--text-muted);
+    }}
+    .remember-device {{
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 8px;
+      cursor: pointer;
+    }}
+    .remember-device input {{
+      accent-color: var(--primary);
+      width: 16px;
+      height: 16px;
+    }}
+    .error-msg {{
+      color: #ef4444;
+      font-size: 0.8rem;
+      font-weight: 600;
+      height: 20px;
+      margin-top: 10px;
+    }}
+    .shake {{
+      animation: shake 0.4s ease-in-out;
+    }}
+    @keyframes shake {{
+      0%, 100% {{ transform: translateX(0); }}
+      20%, 60% {{ transform: translateX(-10px); }}
+      40%, 80% {{ transform: translateX(10px); }}
+    }}
+
+    /* メインコンテンツ（認証後に表示） */
+    #mainContent {{
+      display: none;
+    }}
+
     header {{
       padding: 14px 0 10px 0;
       border-bottom: 1px solid var(--border);
@@ -248,7 +378,6 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
       justify-content: space-between;
     }}
     
-    /* タブコンテナ */
     .tabs-wrapper {{
       margin-bottom: 12px;
     }}
@@ -477,16 +606,31 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
       align-items: center;
       gap: 4px;
       transition: all 0.2s;
+    .read-btn {{
+      background: #2563eb;
+      color: #ffffff;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: none;
+      box-shadow: 0 2px 4px rgba(37, 99, 235, 0.3);
     }}
-    .translate-btn {{
-      background: rgba(59, 130, 246, 0.15);
-      color: #60a5fa;
+    .read-btn:hover {{
+      background: #1d4ed8;
+    }}
+    .safari-tip {{
+      background: rgba(59, 130, 246, 0.12);
       border: 1px solid rgba(59, 130, 246, 0.3);
-    }}
-    .original-btn {{
-      background: rgba(255, 255, 255, 0.05);
-      color: var(--text-muted);
-      border: 1px solid var(--border);
+      padding: 8px 12px;
+      border-radius: 10px;
+      font-size: 0.76rem;
+      color: #93c5fd;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.35;
     }}
     .empty-state {{
       text-align: center;
@@ -498,47 +642,201 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
   </style>
 </head>
 <body>
-  <header>
-    <div class="header-top">
-      <h1>🌅 毎朝AIニュース</h1>
-      <span id="connStatus" class="status-badge">⚡ オンライン</span>
-    </div>
-    <div class="meta-bar">
-      <span>更新: {updated_time_jst}</span>
-      <span>計 {len(summaries)} 件取得</span>
-    </div>
-  </header>
 
-  <div class="tabs-wrapper">
-    <!-- メインタブ（注目・未読・既読） -->
-    <div class="main-tabs">
-      <button class="main-tab-btn active" onclick="switchMainTab('unread')">
-        <span>📬 未読</span>
-        <span id="unreadCount" class="badge-count">0</span>
-      </button>
-      <button class="main-tab-btn" onclick="switchMainTab('featured')">
-        <span>🌟 本日の注目 (Top 10)</span>
-      </button>
-      <button class="main-tab-btn" onclick="switchMainTab('read')">
-        <span>✅ 既読</span>
-        <span id="readCount" class="badge-count">0</span>
-      </button>
-    </div>
+  <!-- 暗証番号ロック画面 -->
+  <div id="lockScreen" style="{'' if auth_enabled else 'display:none;'}">
+    <div class="lock-box">
+      <div class="lock-icon">🔒</div>
+      <div class="lock-title">AIニュース（専用）</div>
+      <div class="lock-desc">暗証番号を入力してロックを解除してください</div>
+      
+      <div class="pin-dots">
+        <div class="pin-dot" id="dot-0"></div>
+        <div class="pin-dot" id="dot-1"></div>
+        <div class="pin-dot" id="dot-2"></div>
+        <div class="pin-dot" id="dot-3"></div>
+      </div>
 
-    <!-- サイト別タブ（横スクロール） -->
-    <div class="sub-tabs-scroll">
-      {site_tabs_html}
+      <div class="keypad">
+        <button class="key-btn" onclick="pressKey('1')">1</button>
+        <button class="key-btn" onclick="pressKey('2')">2</button>
+        <button class="key-btn" onclick="pressKey('3')">3</button>
+        <button class="key-btn" onclick="pressKey('4')">4</button>
+        <button class="key-btn" onclick="pressKey('5')">5</button>
+        <button class="key-btn" onclick="pressKey('6')">6</button>
+        <button class="key-btn" onclick="pressKey('7')">7</button>
+        <button class="key-btn" onclick="pressKey('8')">8</button>
+        <button class="key-btn" onclick="pressKey('9')">9</button>
+        <button class="key-btn action-key" onclick="clearPin()">クリア</button>
+        <button class="key-btn" onclick="pressKey('0')">0</button>
+        <button class="key-btn action-key" onclick="backspacePin()">⌫</button>
+      </div>
+
+      <label class="remember-device">
+        <input type="checkbox" id="rememberDevice" checked>
+        <span>この端末を記憶する（次回から自動解除）</span>
+      </label>
+
+      <div id="errorMsg" class="error-msg"></div>
     </div>
   </div>
 
-  <main id="newsContainer">
-    {cards_html}
-    <div id="emptyState" class="empty-state">
-      🎉 該当する記事はありません
+  <!-- メインコンテンツ -->
+  <div id="mainContent" style="{'' if not auth_enabled else ''}">
+    <header>
+      <div class="header-top">
+        <h1>🌅 毎朝AIニュース</h1>
+        <span id="connStatus" class="status-badge">⚡ オンライン</span>
+      </div>
+      <div class="meta-bar">
+        <span>更新: {updated_time_jst}</span>
+        <span>計 {len(summaries)} 件取得</span>
+      </div>
+    </header>
+
+    <div class="safari-tip">
+      <span>💡</span>
+      <div><strong>iPhoneの方へ:</strong> 英語記事を開いた後、画面左下の「<strong>あA</strong>」（または『翻訳』アイコン）を押すと一瞬で自然な日本語になります！</div>
     </div>
-  </main>
+
+    <div class="tabs-wrapper">
+      <!-- メインタブ（注目・未読・既読） -->
+      <div class="main-tabs">
+        <button class="main-tab-btn active" onclick="switchMainTab('unread')">
+          <span>📬 未読</span>
+          <span id="unreadCount" class="badge-count">0</span>
+        </button>
+        <button class="main-tab-btn" onclick="switchMainTab('featured')">
+          <span>🌟 本日の注目 (Top 10)</span>
+        </button>
+        <button class="main-tab-btn" onclick="switchMainTab('read')">
+          <span>✅ 既読</span>
+          <span id="readCount" class="badge-count">0</span>
+        </button>
+      </div>
+
+      <!-- サイト別タブ（横スクロール） -->
+      <div class="sub-tabs-scroll">
+        {site_tabs_html}
+      </div>
+    </div>
+
+    <main id="newsContainer">
+      {cards_html}
+      <div id="emptyState" class="empty-state">
+        🎉 該当する記事はありません
+      </div>
+    </main>
+  </div>
 
   <script>
+    // 認証設定
+    const AUTH_ENABLED = {str(auth_enabled).lower()};
+    const EXPECTED_HASH = "{passcode_hash}";
+    const STORAGE_AUTH_KEY = "ai_news_auth_token_v2";
+
+    let currentPin = "";
+
+    // SHA-256計算関数 (Web Crypto API)
+    async function sha256(str) {{
+      const buf = new TextEncoder().encode(str);
+      const digest = await crypto.subtle.digest('SHA-256', buf);
+      return Array.from(new Uint8Array(digest)).map(b => b.toString(16).padStart(2, '0')).join('');
+    }}
+
+    // 認証チェック
+    async function checkAuth() {{
+      if (!AUTH_ENABLED) {{
+        unlockScreen();
+        return;
+      }}
+      const saved = localStorage.getItem(STORAGE_AUTH_KEY);
+      if (saved === EXPECTED_HASH) {{
+        unlockScreen();
+      }} else {{
+        document.getElementById('lockScreen').style.display = 'flex';
+        document.getElementById('mainContent').style.display = 'none';
+      }}
+    }}
+
+    function unlockScreen() {{
+      const lock = document.getElementById('lockScreen');
+      if (lock) lock.style.display = 'none';
+      document.getElementById('mainContent').style.display = 'block';
+      applyReadState();
+      renderView();
+    }}
+
+    async function pressKey(num) {{
+      if (currentPin.length >= 8) return;
+      currentPin += num;
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+
+      // 4文字以上で検証チェック
+      if (currentPin.length >= 4) {{
+        const hash = await sha256(currentPin);
+        if (hash === EXPECTED_HASH) {{
+          if (document.getElementById('rememberDevice').checked) {{
+            localStorage.setItem(STORAGE_AUTH_KEY, EXPECTED_HASH);
+          }}
+          unlockScreen();
+          currentPin = "";
+          updateDots();
+        }} else if (currentPin.length >= 6) {{
+          triggerError();
+        }}
+      }}
+    }}
+
+    function updateDots() {{
+      for (let i = 0; i < 4; i++) {{
+        const dot = document.getElementById('dot-' + i);
+        if (dot) {{
+          if (i < currentPin.length) {{
+            dot.classList.add('filled');
+          }} else {{
+            dot.classList.remove('filled');
+          }}
+        }}
+      }}
+    }}
+
+    function backspacePin() {{
+      currentPin = currentPin.slice(0, -1);
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+    }}
+
+    function clearPin() {{
+      currentPin = "";
+      updateDots();
+      document.getElementById('errorMsg').textContent = "";
+    }}
+
+    function triggerError() {{
+      const lockBox = document.querySelector('.lock-box');
+      lockBox.classList.add('shake');
+      document.getElementById('errorMsg').textContent = "暗証番号が正しくありません";
+      setTimeout(() => {{
+        lockBox.classList.remove('shake');
+        clearPin();
+      }}, 500);
+    }}
+
+    // PCキーボード入力対応
+    window.addEventListener('keydown', (e) => {{
+      if (document.getElementById('lockScreen').style.display !== 'none') {{
+        if (e.key >= '0' && e.key <= '9') {{
+          pressKey(e.key);
+        }} else if (e.key === 'Backspace') {{
+          backspacePin();
+        }} else if (e.key === 'Escape') {{
+          clearPin();
+        }}
+      }}
+    }});
+
     // サービスワーカー登録（オフライン対応）
     if ('serviceWorker' in navigator) {{
       navigator.serviceWorker.register('./sw.js').then(reg => {{
@@ -617,12 +915,14 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
         }}
       }});
 
-      document.getElementById('readCount').textContent = readCount;
-      document.getElementById('unreadCount').textContent = unreadCount;
+      const rEl = document.getElementById('readCount');
+      const uEl = document.getElementById('unreadCount');
+      if (rEl) rEl.textContent = readCount;
+      if (uEl) uEl.textContent = unreadCount;
     }}
 
     // 表示制御（タブの切り替え）
-    let currentTab = 'unread'; // 'unread' | 'featured' | 'read' | 'site'
+    let currentTab = 'unread';
     let currentSite = '';
 
     function switchMainTab(tab) {{
@@ -641,7 +941,6 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
       renderView();
     }}
 
-    // サイトタブのクリックリスナー
     document.querySelectorAll('.filter-btn.site-tab').forEach(btn => {{
       btn.addEventListener('click', () => {{
         const site = btn.getAttribute('data-site');
@@ -660,14 +959,13 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
       const cards = Array.from(document.querySelectorAll('.news-card'));
       const container = document.getElementById('newsContainer');
       const emptyState = document.getElementById('emptyState');
+      if (!container) return;
       let visibleCount = 0;
 
       if (currentTab === 'featured') {{
-        // 注目度（星）順にソートして上位10件を表示
         cards.sort((a, b) => {{
           return parseInt(b.getAttribute('data-importance')) - parseInt(a.getAttribute('data-importance'));
         }});
-        // コンテナ内に再配置
         cards.forEach((card, index) => {{
           container.insertBefore(card, emptyState);
           if (index < 10) {{
@@ -701,12 +999,11 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
         }});
       }}
 
-      emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
+      if (emptyState) emptyState.style.display = (visibleCount === 0) ? 'block' : 'none';
     }}
 
-    // 初期化実行
-    applyReadState();
-    renderView();
+    // 初回認証チェック起動
+    checkAuth();
   </script>
 </body>
 </html>
@@ -714,14 +1011,14 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str) -> str
     return html_content
 
 
-def generate_web_page(summaries: List[Dict[str, Any]], output_dir: str = DOCS_DIR) -> str:
+def generate_web_page(summaries: List[Dict[str, Any]], output_dir: str = DOCS_DIR, auth_cfg: Optional[Dict[str, Any]] = None) -> str:
     """Webページ一式（docs/index.html等）を生成して保存"""
     ensure_pwa_assets(output_dir)
 
     jst = timezone(timedelta(hours=9))
     now_jst = datetime.now(jst).strftime("%Y/%m/%d %H:%M JST")
 
-    html = generate_html(summaries, now_jst)
+    html = generate_html(summaries, now_jst, auth_cfg)
     out_file = os.path.join(output_dir, "index.html")
 
     with open(out_file, "w", encoding="utf-8") as f:
