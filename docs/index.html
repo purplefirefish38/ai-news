@@ -455,6 +455,21 @@
       gap: 6px;
       line-height: 1.35;
     }
+    .lock-btn {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .lock-btn:active {
+      background: #ef4444;
+      color: #fff;
+    }
     .empty-state {
       text-align: center;
       padding: 40px 16px;
@@ -509,10 +524,13 @@
     <header>
       <div class="header-top">
         <h1>🌅 毎朝AIニュース</h1>
-        <span id="connStatus" class="status-badge">⚡ オンライン</span>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <button class="lock-btn" onclick="lockApp()" title="再ロック">🔒 ロック</button>
+          <span id="connStatus" class="status-badge">⚡ オンライン</span>
+        </div>
       </div>
       <div class="meta-bar">
-        <span>更新: 2026/09/24 22:42 JST</span>
+        <span>更新: 2026/09/24 23:00 JST</span>
         <span>計 15 件取得</span>
       </div>
     </header>
@@ -961,7 +979,7 @@
     // 認証設定
     const AUTH_ENABLED = true;
     const EXPECTED_HASH = "a7dd571718347974f850dc66f8a8f7bbb64bc1ffd8c5350e479b318b6a9c35ec";
-    const STORAGE_AUTH_KEY = "ai_news_auth_token_v2";
+    const STORAGE_AUTH_KEY = "ai_news_auth_token_v3";
 
     let currentPin = "";
 
@@ -982,6 +1000,7 @@
       if (saved === EXPECTED_HASH) {
         unlockScreen();
       } else {
+        localStorage.removeItem(STORAGE_AUTH_KEY);
         document.getElementById('lockScreen').style.display = 'flex';
         document.getElementById('mainContent').style.display = 'none';
       }
@@ -993,6 +1012,16 @@
       document.getElementById('mainContent').style.display = 'block';
       applyReadState();
       renderView();
+    }
+
+    function lockApp() {
+      localStorage.removeItem(STORAGE_AUTH_KEY);
+      if ('caches' in window) {
+        caches.keys().then(keys => {
+          for (let k of keys) caches.delete(k);
+        });
+      }
+      location.reload();
     }
 
     async function pressKey(num) {

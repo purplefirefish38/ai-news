@@ -40,7 +40,7 @@ def ensure_pwa_assets(output_dir: str):
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     sw_code = """// Service Worker: オフライン（電波圏外）キャッシュ
-const CACHE_NAME = 'ai-news-v3';
+const CACHE_NAME = 'ai-news-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -632,6 +632,21 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_c
       gap: 6px;
       line-height: 1.35;
     }}
+    .lock-btn {{
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-size: 0.72rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }}
+    .lock-btn:active {{
+      background: #ef4444;
+      color: #fff;
+    }}
     .empty-state {{
       text-align: center;
       padding: 40px 16px;
@@ -686,7 +701,10 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_c
     <header>
       <div class="header-top">
         <h1>🌅 毎朝AIニュース</h1>
-        <span id="connStatus" class="status-badge">⚡ オンライン</span>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <button class="lock-btn" onclick="lockApp()" title="再ロック">🔒 ロック</button>
+          <span id="connStatus" class="status-badge">⚡ オンライン</span>
+        </div>
       </div>
       <div class="meta-bar">
         <span>更新: {updated_time_jst}</span>
@@ -733,7 +751,7 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_c
     // 認証設定
     const AUTH_ENABLED = {str(auth_enabled).lower()};
     const EXPECTED_HASH = "{passcode_hash}";
-    const STORAGE_AUTH_KEY = "ai_news_auth_token_v2";
+    const STORAGE_AUTH_KEY = "ai_news_auth_token_v3";
 
     let currentPin = "";
 
@@ -754,6 +772,7 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_c
       if (saved === EXPECTED_HASH) {{
         unlockScreen();
       }} else {{
+        localStorage.removeItem(STORAGE_AUTH_KEY);
         document.getElementById('lockScreen').style.display = 'flex';
         document.getElementById('mainContent').style.display = 'none';
       }}
@@ -765,6 +784,16 @@ def generate_html(summaries: List[Dict[str, Any]], updated_time_jst: str, auth_c
       document.getElementById('mainContent').style.display = 'block';
       applyReadState();
       renderView();
+    }}
+
+    function lockApp() {{
+      localStorage.removeItem(STORAGE_AUTH_KEY);
+      if ('caches' in window) {{
+        caches.keys().then(keys => {{
+          for (let k of keys) caches.delete(k);
+        }});
+      }}
+      location.reload();
     }}
 
     async function pressKey(num) {{

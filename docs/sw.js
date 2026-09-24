@@ -1,5 +1,5 @@
 // Service Worker: オフライン（電波圏外）キャッシュ
-const CACHE_NAME = 'ai-news-v3';
+const CACHE_NAME = 'ai-news-v4';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
