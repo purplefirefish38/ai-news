@@ -1,155 +1,43 @@
 {
-  "updated_at": "2026/09/25 08:47 JST",
+  "updated_at": "2026/09/26 08:53 JST",
   "articles": [
     {
-      "title_ja": "GrabとOpenAIが東南アジア地域で実践的AIスキルトレーニングを共同展開",
+      "title_ja": "【新発表】the new Copilot with Home, Code and Autopilot",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>We’re reimagining Microsoft Copilot to enable work as it evolves and to help ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+    },
+    {
+      "title_ja": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 p...",
+        "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells m...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia"
-    },
-    {
-      "title_ja": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models t...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/airbnb-gpt-6-astra"
-    },
-    {
-      "title_ja": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesse...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
-    },
-    {
-      "title_ja": "【新発表】MentalHealthBench",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "MentalHealthBench is an expert-informed benchmark for evaluating helpful and saf...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/introducing-mentalhealthbench"
-    },
-    {
-      "title_ja": "Sam Altman’s remarks at the United Nations Security Council",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI CEO Sam Altman discusses AI safety, human control, and international coop...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks"
-    },
-    {
-      "title_ja": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "GPT-6 Astra produces more structured, context-aware legal documents, freeing law...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra"
-    },
-    {
-      "title_ja": "invideo improves color grading 3x with GPT‑6 Astraの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "With GPT‑6 Astra, invideo plans edits with greater precision, improves color cor...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra"
-    },
-    {
-      "title_ja": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, an...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/ringg"
-    },
-    {
-      "title_ja": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI is extending access to its Daybreak program to the Government of Ukraine ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
-    },
-    {
-      "title_ja": "Two years of OpenAI Academy",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Marking two years of OpenAI Academy and bringing AI skills to even more communit...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/two-years-of-openai-academy"
+      "url": "https://openai.com/index/proaction"
     },
     {
       "title_ja": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like rep...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -184,32 +72,144 @@
       "url": "https://www.anthropic.com/news/life-sciences-verification-program"
     },
     {
-      "title_ja": "マイクロソフト自社のAI変革プロセスから得られた知見と現場の教訓",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "Codexの業務活用例12選！任せる仕事の選び方と頼み方を職種別に解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>AI is reshaping work faster than any organization has fully mastered. Across ...",
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>Codex&#12399;&#12456;&#12531;&#12472;&#12491;&#12450;&#21521;&#12369;&#12398;...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/"
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/09/25/278376/?utm_source=rss&utm_medium=rss&utm_campaign=codex%25e3%2581%25ae%25e6%25a5%25ad%25e5%258b%2599%25e6%25b4%25bb%25e7%2594%25a8%25e4%25be%258b12%25e9%2581%25b8%25ef%25bc%2581%25e4%25bb%25bb%25e3%2581%259b%25e3%2582%258b%25e4%25bb%2595%25e4%25ba%258b%25e3%2581%25ae%25e9%2581%25b8%25e3%2581%25b3%25e6%2596%25b9%25e3%2581%25a8%25e9%25a0%25bc%25e3%2581%25bf%25e6%2596%25b9"
     },
     {
-      "title_ja": "マイクロソフト、教育分野におけるAI安全利用と生徒の学習強化コミットメントを発表",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "Codexを会社で導入する5ステップ！法人プランの選び方と管理機能を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Microsoft has been in the business of education for five decades. Since the e...",
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#29694;&#22580;&#12363;&#12425;&#12300;Codex&#12434;&#20250;&#31038;&#12391;...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/"
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/09/25/278379/?utm_source=rss&utm_medium=rss&utm_campaign=codex%25e3%2582%2592%25e4%25bc%259a%25e7%25a4%25be%25e3%2581%25a7%25e5%25b0%258e%25e5%2585%25a5%25e3%2581%2599%25e3%2582%258b5%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25ef%25bc%2581%25e6%25b3%2595%25e4%25ba%25ba%25e3%2583%2597%25e3%2583%25a9%25e3%2583%25b3%25e3%2581%25ae%25e9%2581%25b8%25e3%2581%25b3"
+    },
+    {
+      "title_ja": "AI同士が取引する時代、「相手は誰か」をどう確認する？　GMOが信頼基盤を実証",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "AIエージェントが企業の枠を超えて商品検索や発注、決済まで担う時代には、「誰が操作しているのか」「どこまで権限があるのか」を確認する仕組みが不可欠だ。...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/25/2000001724/"
+    },
+    {
+      "title_ja": "ChatGPTやCopilotから直接翻訳　「DeepL」のMCP対応で多言語業務はどう変わる？",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "多言語を扱う業務では、翻訳のたびにAIと翻訳サービスを行き来する手間がある。DeepLはMCPに対応し、ChatGPTやMicrosoft Copilotなどか...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/25/2000001723/"
+    },
+    {
+      "title_ja": "ソフトPLCがAIの「道具」に、簡単導入のPLCドラレコカメラも",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "アイ・エル・シーは「産業オープンネット展2026」において、設備監視用ソリューションや組み込みソフトウェアPLCを紹介した。...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2609/25/news058.html"
+    },
+    {
+      "title_ja": "ハルシネーション排除、最大200倍高速――元OpenAI研究者の新AI「Jev」は何が違うのか",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "TypeSafe AIは、自動化に特化した新AIモデル「Jev」の早期アクセス提供を開始した。文字列生成を廃止し、従来のLLM比で最大200倍の高速化とハルシネ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news055.html"
+    },
+    {
+      "title_ja": "AI内製化、9割超が「停滞、頓挫」を経験　つまずく原因は“技術”ではなかった",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "TWOSTONE&amp;Sonsが、企業のAI内製化に関する実態調査の結果を公表。AI内製化の推進責任者の9割以上が競合との差に危機感を抱き、社内主導プロジェ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/25/news049.html"
+    },
+    {
+      "title_ja": "Google、リアルタイムで表情豊かに話すAIアバター「Gemini 3.8 Live with Live Avatar」提供開始　画像1枚で独自アバターも",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Googleは、リアルタイム音声対話と動画生成アバターを組み合わせた「Gemini 3.8 Live with Live Avatar」をGemini Ente...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/"
+    },
+    {
+      "title_ja": "「現代AIの父」シュミットフーバー氏がSakana AIに参画　RSI研究のアドバイザーに",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Sakana AIが「現代AIの父」と称されるユルゲン・シュミットフーバー氏の参画を発表。ChatGPTの「P」「T」の原型を1991年に発表したと主張する同氏...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2609/25/2000001742/"
+    },
+    {
+      "title_ja": "AIエージェントの将来性は？市場予測と2030年までの進化を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#12300;AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#20803;&#24180;&#1...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/09/25/278382/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%2586%25e6%259d%25a5%25e6%2580%25a7%25e3%2581%25af%25ef%25bc%259f%25e5%25b8%2582%25e5%25a0%25b4%25e4%25ba%2588%25e6%25b8%25ac%25e3%2581%25a82030%25e5%25b9%25b4%25e3%2581%25be%25e3%2581%25a7%25e3%2581%25ae"
     }
   ]
 }
