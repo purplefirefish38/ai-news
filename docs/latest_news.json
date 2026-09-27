@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026/09/27 08:24 JST",
+  "updated_at": "2026/09/28 08:41 JST",
   "articles": [
-    {
-      "title_ja": "【新発表】the new Copilot with Home, Code and Autopilot",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>We’re reimagining Microsoft Copilot to enable work as it evolves and to help ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
-    },
     {
       "title_ja": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -30,14 +16,42 @@
       "url": "https://openai.com/index/proaction"
     },
     {
+      "title_ja": "Two years of OpenAI Academy",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Marking two years of OpenAI Academy and bringing AI skills to even more communit...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/two-years-of-openai-academy"
+    },
+    {
+      "title_ja": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI is extending access to its Daybreak program to the Government of Ukraine ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
+    },
+    {
       "title_ja": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like rep...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 5,
+      "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -72,130 +86,46 @@
       "url": "https://www.anthropic.com/news/life-sciences-verification-program"
     },
     {
-      "title_ja": "Google、リアルタイムで表情豊かに話すAIアバター「Gemini 3.8 Live with Live Avatar」提供開始　画像1枚で独自アバターも",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "【新発表】the new Copilot with Home, Code and Autopilot",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Googleは、リアルタイム音声対話と動画生成アバターを組み合わせた「Gemini 3.8 Live with Live Avatar」をGemini Ente...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>We’re reimagining Microsoft Copilot to enable work as it evolves and to help ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/25/2000001730/"
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
     },
     {
-      "title_ja": "「現代AIの父」シュミットフーバー氏がSakana AIに参画　RSI研究のアドバイザーに",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "マイクロソフト自社のAI変革プロセスから得られた知見と現場の教訓",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Sakana AIが「現代AIの父」と称されるユルゲン・シュミットフーバー氏の参画を発表。ChatGPTの「P」「T」の原型を1991年に発表したと主張する同氏...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>AI is reshaping work faster than any organization has fully mastered. Across ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/25/2000001742/"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/"
     },
     {
-      "title_ja": "AIエージェントの将来性は？市場予測と2030年までの進化を解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "マイクロソフト、教育分野におけるAI安全利用と生徒の学習強化コミットメントを発表",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#12300;AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#20803;&#24180;&#1...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Microsoft has been in the business of education for five decades. Since the e...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/09/25/278382/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%2586%25e6%259d%25a5%25e6%2580%25a7%25e3%2581%25af%25ef%25bc%259f%25e5%25b8%2582%25e5%25a0%25b4%25e4%25ba%2588%25e6%25b8%25ac%25e3%2581%25a82030%25e5%25b9%25b4%25e3%2581%25be%25e3%2581%25a7%25e3%2581%25ae"
-    },
-    {
-      "title_ja": "AIエージェントによるプログラミングとは？できること・ツール7選・始め方",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12395;&#12424;&#12427;&#1...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/09/25/278386/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ab%25e3%2582%2588%25e3%2582%258b%25e3%2583%2597%25e3%2583%25ad%25e3%2582%25b0%25e3%2583%25a9%25e3%2583%259f%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b"
-    },
-    {
-      "title_ja": "Announcing new builds for 25 September 2026",
-      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p>Hello Windows Insiders,</p> <p>Today, we’re releasing new Windows 11 Insider ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "Copilot / Windows",
-      "category_desc": "一次情報・PC",
-      "source": "Windows Blog",
-      "url": "https://blogs.windows.com/windows-insider/2026/09/25/announcing-new-builds-for-25-september-2026/"
-    },
-    {
-      "title_ja": "あいち銀行が経理DXを本格化　LayerXと「請求書受領から振込まで」をつなぐ",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "紙やPDFの請求書を受け取り、Excelに転記して承認、振込データを作成する。企業の経理現場には今なお手作業が残る。あいち銀行はLayerXと組み、請求書の受領...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/26/2000001731/"
-    },
-    {
-      "title_ja": "資料作成が月32時間から4時間に　トラコムが生成AIで「月28時間削減」した方法",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "生成AIを導入しても、活用が一部の従業員の“個人技”にとどまれば、効果を組織全体へ広げるのは難しい。トラコムでは、現場の工夫を仕組み化して共有。資料作成や月次処...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2609/26/2000001725/"
-    },
-    {
-      "title_ja": "Microsoft、「Copilot」を刷新　「仕事のための新しいOS」とナデラCEO",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Microsoftは「Microsoft Copilot」アプリの大幅な刷新を発表した。「Home」「Code」「Autopilot」の3タブ構成とし、Offi...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2609/26/2000001773/"
-    },
-    {
-      "title_ja": "「Codex」で1時間にわたる障害→使用量リセットへ",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "「私たちは再び稼働中で、CodexとChatGPT全体で全有料ユーザーの使用制限をリセットするよ」...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2609/26/2000001774/"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/"
     },
     {
       "title_ja": "「1週間の開発タスク」でAIの限界を検証　Googleが「Android Bench 2.0」公開",
@@ -210,6 +140,76 @@
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
       "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news013.html"
+    },
+    {
+      "title_ja": "「AIトークンコスト増を44％抑制」できる可能性も　高性能モデルの“使い過ぎ”、どう減らす？",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "生成AIやAIエージェントの活用が広がる中、企業のAI利用コストも膨らんでいる。AI活用を減らすことなく、増加するコストを抑えるには何を見直せばいいのか。アクセ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news011.html"
+    },
+    {
+      "title_ja": "AIエージェントで資料作成を自動化！おすすめ10選と使い方を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#25552;&#26696;&#26360;&#12420;&#20250;&#35696;&#36039;&#26009;&#12389;&#123...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/09/27/278389/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e8%25b3%2587%25e6%2596%2599%25e4%25bd%259c%25e6%2588%2590%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25ef%25bc%2581%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%258110%25e9%2581%25b8"
+    },
+    {
+      "title_ja": "AIエージェントでリサーチを効率化！おすすめツール10選と使い方・注意点",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#24066;&#22580;&#35519;&#26619;&#12420;&#31478;&#21512;&#35519;&#26619;&#123...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/09/27/278392/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2583%25aa%25e3%2582%25b5%25e3%2583%25bc%25e3%2583%2581%25e3%2582%2592%25e5%258a%25b9%25e7%258e%2587%25e5%258c%2596%25ef%25bc%2581%25e3%2581%258a%25e3%2581%2599%25e3%2581%2599%25e3%2582%2581%25e3%2583%2584%25e3%2583%25bc"
+    },
+    {
+      "title_ja": "NTTドコモ、「正しく質問させる」をやめ、“聞き返すAI”で変える顧客対応",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "NTTドコモが、顧客の短い質問から意図をくみ取り、必要な手続きへ導く対話AIを導入した。生成AIが顧客に聞き返しながら情報を絞り込むことで、FAQを探す負担を軽...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2609/27/2000001764/"
+    },
+    {
+      "title_ja": "AIエージェントの暴走が怖くて自作した話：「信頼ゲート」で制御するOSSコーディングエージェントAndromityの設計",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "AIコーディングエージェントを使うたびに、僕はずっと同じことを考えていました。 「こいつは賢い。でも、ちゃんと言うことを聞いているのか？」 こんにちは、shek...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/shekhar/articles/d56fb2373cfd74"
     }
   ]
 }
