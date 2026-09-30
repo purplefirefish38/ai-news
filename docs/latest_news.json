@@ -1,34 +1,6 @@
 {
-  "updated_at": "2026/09/29 09:51 JST",
+  "updated_at": "2026/09/30 09:06 JST",
   "articles": [
-    {
-      "title_ja": "Are you a Codex Original?",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "We’re collecting real stories of builders, tinkerers, researchers, and creators ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/form/codex-originals"
-    },
-    {
-      "title_ja": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and it...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra"
-    },
     {
       "title_ja": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -42,6 +14,90 @@
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/lenfest-ai-collaborative-expansion"
+    },
+    {
+      "title_ja": "Towards safety cases for frontier AI training",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Our early guidelines for safety cases in frontier AI training cover technical sa...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+    },
+    {
+      "title_ja": "we will do better for Australiaの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI apologises for incidents involving Australian government websites and out...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia"
+    },
+    {
+      "title_ja": "【新発表】dots",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Dots by OpenAI are a proactive assistant that can keep working across complex pr...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-dots"
+    },
+    {
+      "title_ja": "New Microsoft data innovations unlock what only your business knows",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Every organization has knowledge that is uniquely its own: the way its busine...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows/"
+    },
+    {
+      "title_ja": "【新発表】GPT-6.1 Sol",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professi...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol"
+    },
+    {
+      "title_ja": "DevDay 2026 Recap",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astr...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/devday-2026-recap"
     },
     {
       "title_ja": "Sep 23, 2026 Science Claude discovers a novel enzyme system with CRISPR-like repeats",
@@ -86,48 +142,6 @@
       "url": "https://www.anthropic.com/news/life-sciences-verification-program"
     },
     {
-      "title_ja": "【新発表】the new Copilot with Home, Code and Autopilot",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>We’re reimagining Microsoft Copilot to enable work as it evolves and to help ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
-    },
-    {
-      "title_ja": "マイクロソフト自社のAI変革プロセスから得られた知見と現場の教訓",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>AI is reshaping work faster than any organization has fully mastered. Across ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/17/what-weve-learned-from-microsofts-own-ai-transformation/"
-    },
-    {
-      "title_ja": "マイクロソフト、教育分野におけるAI安全利用と生徒の学習強化コミットメントを発表",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Microsoft has been in the business of education for five decades. Since the e...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/16/microsofts-commitment-for-ai-in-education/"
-    },
-    {
       "title_ja": "AIエージェントでスケジュール管理を自動化する方法とおすすめツール9選",
       "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
@@ -140,20 +154,6 @@
       "category_desc": "国内ニュース・トレンド",
       "source": "AINOW",
       "url": "https://ainow.ai/2026/09/28/278395/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a7%25e3%2582%25b9%25e3%2582%25b1%25e3%2582%25b8%25e3%2583%25a5%25e3%2583%25bc%25e3%2583%25ab%25e7%25ae%25a1%25e7%2590%2586%25e3%2582%2592%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9"
-    },
-    {
-      "title_ja": "Claude Code に同じ失敗を6回された話：再発を数えて「ルール」を「仕組み」に変える",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "Claude Code に、個人でやっている事業の定型作業（投稿・返信・巡回・集計・納品・記録の更新）を毎日任せています。私はコードを書きません。 任せていて分...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/takuyaauto/articles/d9db23c55571dd"
     },
     {
       "title_ja": "AIエージェントは中小企業こそ使える！活用例8選と費用・補助金・始め方",
@@ -170,46 +170,46 @@
       "url": "https://ainow.ai/2026/09/28/278398/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25af%25e4%25b8%25ad%25e5%25b0%258f%25e4%25bc%2581%25e6%25a5%25ad%25e3%2581%2593%25e3%2581%259d%25e4%25bd%25bf%25e3%2581%2588%25e3%2582%258b%25ef%25bc%2581%25e6%25b4%25bb%25e7%2594%25a8%25e4%25be%258b8%25e9%2581%25b8"
     },
     {
-      "title_ja": "Claude CodeがAGENTS.mdに対応、CLAUDE.mdがあると読まれない条件を整理",
+      "title_ja": "Claude Code と Codex を最小の有料プラン同士で組ませるまで",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "Claude Codeに2026年9月、AGENTS.mdを読み込む機能が入りました。ただし条件付きで、CLAUDE.mdを置いているプロジェクトでは既定で読ま...",
+        "一人暮らしの大学生なので、AI にかけるお金はなるべく抑えたいと思っています。最初は Claude の Pro プランだけで開発していましたが、使用枠はすぐに尽...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/ainewsdaily/articles/20260928_claude_code_t1"
+      "url": "https://zenn.dev/twinharness/articles/claude-code-codex-lowest-plans-duo"
     },
     {
-      "title_ja": "LLMに固有名詞の誤字を直させたら、製品名を別のものに変えられた",
+      "title_ja": "Sonnet 5.5が同料金で速く安く、AIの止め方も前進",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "::message この記事は、katto.tech に掲載した記事の日本語版です。 ::: Katto はAI動画クリッパーです。長い動画を放り込むと、良いと...",
+        "2026年9月29日（火）のAIニュース完全解説版。図解を見れば本文を読まなくても分かる形にしています。 おはようございます。僕は毎朝、AIのニュースを自分の仕...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/kattoai/articles/f9d8431e3de102"
+      "url": "https://zenn.dev/sugawara_ai/articles/ai-news-20260929"
     },
     {
-      "title_ja": "スキルの管理をしたい ~スキルとおむすび~",
+      "title_ja": "Sonnet 5.5＋Opus 5.5アドバイザーで手軽にコスト削減！",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "スキルの管理が辛い ※この記事は私の戯言を元にAIが作ったものを3時間ぐらいかけて手直しして書いています。 油断するとAIが私に読み物を大量に作成し、それを見る...",
+        "はじめに @yoppy0123さんも紹介しているSonnet 5.5 + Opus 5.5アドバイザーの組み合わせいい感じ！を広めるためだけの記事です。 htt...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/relic_tech/articles/12c134597dca54"
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-sonnet-opus-advisor"
     }
   ]
 }
