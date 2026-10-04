@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026/10/04 08:33 JST",
+  "updated_at": "2026/10/05 08:51 JST",
   "articles": [
-    {
-      "title_ja": "Chatham scales its capital markets expertise with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workfl...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/chatham-financial"
-    },
     {
       "title_ja": "A model guide for the GPT-6 family",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -30,14 +16,42 @@
       "url": "https://openai.com/index/practical-guide-building-gpt-6"
     },
     {
+      "title_ja": "Chatham scales its capital markets expertise with OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workfl...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/chatham-financial"
+    },
+    {
+      "title_ja": "The eternal complement",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Advanced AI may matter most for the routine work behind breakthrough ideas. Expl...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-eternal-complement"
+    },
+    {
       "title_ja": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 enginee...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 5,
+      "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -114,102 +128,88 @@
       "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
     },
     {
-      "title_ja": "SIE、PS5向けAI採用画質向上技術「QSSR」発表　AMDと共同開発、「Marvel's Wolverine」と「Ghost of Yōtei」が初対応",
+      "title_ja": "Apple、macOSの「フルディスクアクセス」に追加の制御を導入へ　「AIエージェントの進化でリスクが大幅に増大」",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "ソニー・インタラクティブエンタテインメントは、PS5向けのAIアップスケーリング技術「QSSR」を発表した。PS5 Pro向けのPSSRをAMDと共同で軽量化し...",
+        "Appleは、macOSの「フルディスクアクセス」権限の付与手順を厳格化する方針を発表した。AIエージェントの自律化に伴うデータ流出リスクを抑えるため、明示的な...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001946/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001983/"
     },
     {
-      "title_ja": "Microsoft、初のストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」公開　音声合成「MAI-Voice-2.1」と高速版も",
+      "title_ja": "Meta、AIエージェント「Muse」とつながる自作ガジェット向けSDKをオープンソースで公開　「Raspberry Pi」などに対応",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Microsoft AIは、ストリーミング文字起こしモデル「MAI-Transcribe-2-Streaming」と音声合成モデル群を発表した。低遅延な逐次認識...",
+        "Metaは、パーソナルAI「Muse」と連携するガジェットを自作できるプロジェクト「Muse Gadgets」を発表した。ESP32やRaspberry Pi向...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2610/02/2000001950/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001984/"
     },
     {
-      "title_ja": "「Gemini 4 Argon」とは　性能評価にみるAstra／Fable／Opusとの違い　一般提供は年内？",
+      "title_ja": "Amazon、データセンター批判に反論　10億ドル超の地域支援策も発表",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Googleが新AIモデル「Gemini 4 Argon」を発表。自社評価ではAstraやFable 5.1、Opus 5.5を多くの項目で上回るとうたう。当面...",
+        "AWSのマット・ガーマンCEOは、データセンター建設批判に反論する声明を出した。水資源枯渇などの懸念を「迷信”と否定しつつ、電力料金負担や自治体とのNDA撤廃を...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001954/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/03/2000001985/"
     },
     {
-      "title_ja": "ChatGPTの“利用制限”リセットへ　有料ユーザー向け",
+      "title_ja": "「OpenAIの文化は壊れている」──安全性報告書を統括した従業員が退社し、寄稿",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "米OpenAIのプロダクト責任者ティボー・ソティオ氏は、「ChatGPT」の全有料ユーザーを対象に、利用制限枠をリセットすると発表した。日本時間10月3日午前2...",
+        "OpenAIで安全性報告の執筆を統括したデビッド・ロビンソン氏が退社し、企業文化の崩壊を訴える記事を寄稿した。現行の反復開発手法は失敗を前提としており、能力向上...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001961/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001986/"
     },
     {
-      "title_ja": "国産AI「LLM-jp-4」ベースのAIモデル、KDDI傘下のELYZAが無料公開",
+      "title_ja": "個人向けGeminiのモデル選択が厳格化　無料ユーザーが使えるのは「Flash-Lite」のみに",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "KDDIグループのAI開発企業ELYZAは、AIモデル「ELYZA-Thinking-1.0-llm-jp-4-33b」および「ELYZA-Thinking-1...",
+        "Googleは、個人向けGeminiで利用可能なモデルを契約プランごとに見直すと告知した。無料ユーザーは利用可能モデルが「Flash-Lite」のみに制限され、...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/02/2000001965/"
+      "url": "https://www.itmedia.co.jp/news/article/2610/04/2000001987/"
     },
     {
-      "title_ja": "AIエージェントの導入効果とは？8つの効果と企業事例・測り方を解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "ローカルAIがPCの中でアプリを作る ― ココロネAI for Desktop v0.2.0 を公開した",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12398;&#23566;&#20837;&#2...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "はじめに こんにちは、くなまおです。 Windows向けAIアシスタント「ココロネAI for Desktop」の v0.2.0（α版）を公開しました。前回の ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/10/03/278409/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f8%25e3%2581%25a4%25e3%2581%25ae%25e5%258a%25b9%25e6%259e%259c%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad"
-    },
-    {
-      "title_ja": "AIエージェントの導入課題10個を調査データで解説！導入前後の壁と解決策",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12398;&#23566;&#20837;&#3...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/10/03/278412/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5%25e8%25aa%25b2%25e9%25a1%258c10%25e5%2580%258b%25e3%2582%2592%25e8%25aa%25bf%25e6%259f%25bb%25e3%2583%2587%25e3%2583%25bc%25e3%2582%25bf%25e3%2581%25a7%25e8%25a7%25a3%25e8%25aa%25ac"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/kunamao/articles/d401b315552851"
     }
   ]
 }
