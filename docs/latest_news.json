@@ -1,85 +1,15 @@
 {
-  "updated_at": "2026/10/08 09:45 JST",
+  "updated_at": "2026/10/09 10:01 JST",
   "articles": [
     {
-      "title_ja": "Advancing computer use with Ironclad",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex c...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad"
-    },
-    {
-      "title_ja": "Jump Trading is scaling quant research with ChatGPTの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Jump Trading uses OpenAI to expand quantitative research. See how longer-running...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/jump-trading"
-    },
-    {
-      "title_ja": "Sharing AI progress in mathematics",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI publishes new results on open problems in mathematics from an internal fr...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
-    },
-    {
-      "title_ja": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Atlassian and OpenAI are expanding their partnership to connect frontier models ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/atlassian-partnership"
-    },
-    {
-      "title_ja": "GPT-6 and Intelligent UI for everyone",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/gpt-6-for-everyone"
-    },
-    {
       "title_ja": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technol...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -87,17 +17,73 @@
     },
     {
       "title_ja": "Helping teens learn, plan, and shape the future of AI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "College Planner is coming to ChatGPT for Teens to help students manage college a...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/teens-learn-and-plan"
+    },
+    {
+      "title_ja": "Disrupting AI-enabled “false front” operations",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI disrupted two AI-enabled influence operations that used false-front journ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+    },
+    {
+      "title_ja": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/teens-learn-and-plan"
+      "url": "https://openai.com/index/pollo-ai"
+    },
+    {
+      "title_ja": "LegalOn halves Codex costs while maintaining development speed",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "LegalOn cut estimated daily Codex costs by 65% while maintaining development spe...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/legalon-halves-codex-costs"
+    },
+    {
+      "title_ja": "Oracle turns days of work into minutes with ChatGPT and Codexの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Across recruiting, engineering, and operations, Oracle turns specialist knowledg...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/oracle"
     },
     {
       "title_ja": "Oct 6, 2026 Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
@@ -114,32 +100,32 @@
       "url": "https://www.anthropic.com/news/cyber-verification-program"
     },
     {
-      "title_ja": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "title_ja": "2026 Usage Policy update",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 enginee...",
+        "Oct 8, 2026 Announcements 2026 Usage Policy update...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update"
     },
     {
-      "title_ja": "Barclays scales Claude to upgrade operations and improve client experience",
+      "title_ja": "Building on our commitment to American scientific discovery",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and impro...",
+        "Oct 8, 2026 Announcements Building on our commitment to American scientific disc...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment"
     },
     {
       "title_ja": "Microsoft 365 and LinkedIn leadership update",
@@ -184,32 +170,46 @@
       "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
     },
     {
-      "title_ja": "AIエージェント導入事例10選！国内外の成功事例を成果別に解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "From searching to doing: Building a faster, more streamlined Windows Search",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#12300;&#20182;&#31038;&#12399;AI&#12456;&#12540;&#12472;&#12455;&#12531;&#1...",
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p>Hello Windows Insiders,</p> <p>Search is one of the most familiar ways to get...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/10/07/278415/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b10%25e9%2581%25b8%25ef%25bc%2581%25e5%259b%25bd%25e5%2586%2585%25e5%25a4%2596%25e3%2581%25ae%25e6%2588%2590%25e5%258a%259f%25e4%25ba%258b%25e4%25be%258b%25e3%2582%2592"
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/"
     },
     {
-      "title_ja": "AIエージェント導入支援とは？支援内容・費用相場・選び方と補助金を解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Building Windows for hybrid intelligence",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12434;&#23566;&#20837;&#1...",
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p><span>Agents are creating a foundational shift in how people get things done,...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/10/07/278418/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e5%25b0%258e%25e5%2585%25a5%25e6%2594%25af%25e6%258f%25b4%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%2594%25af%25e6%258f%25b4%25e5%2586%2585%25e5%25ae%25b9%25e3%2583%25bb%25e8%25b2%25bb%25e7%2594%25a8%25e7%259b%25b8%25e5%25a0%25b4"
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/"
+    },
+    {
+      "title_ja": "Microsoft Execution Containers: Policy-driven containment for AI agents",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p>Agents are unlocking enormous productivity gains for customers, but their abi...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
     }
   ]
 }
