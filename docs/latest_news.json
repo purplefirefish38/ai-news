@@ -1,57 +1,15 @@
 {
-  "updated_at": "2026/10/09 10:01 JST",
+  "updated_at": "2026/10/10 09:31 JST",
   "articles": [
     {
-      "title_ja": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technol...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/radisson"
-    },
-    {
-      "title_ja": "Helping teens learn, plan, and shape the future of AI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "College Planner is coming to ChatGPT for Teens to help students manage college a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/teens-learn-and-plan"
-    },
-    {
-      "title_ja": "Disrupting AI-enabled “false front” operations",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI disrupted two AI-enabled influence operations that used false-front journ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
-    },
-    {
       "title_ja": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -59,13 +17,13 @@
     },
     {
       "title_ja": "LegalOn halves Codex costs while maintaining development speed",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "LegalOn cut estimated daily Codex costs by 65% while maintaining development spe...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -73,17 +31,45 @@
     },
     {
       "title_ja": "Oracle turns days of work into minutes with ChatGPT and Codexの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Across recruiting, engineering, and operations, Oracle turns specialist knowledg...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/oracle"
+    },
+    {
+      "title_ja": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation tim...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/oracle"
+      "url": "https://openai.com/index/sophos"
+    },
+    {
+      "title_ja": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x fast...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/asana-browser-agent"
     },
     {
       "title_ja": "Oct 6, 2026 Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
@@ -170,46 +156,60 @@
       "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
     },
     {
-      "title_ja": "From searching to doing: Building a faster, more streamlined Windows Search",
-      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Google「Gemini」新サービスで「Claude」利用可能に　他モデルも今後追加予定",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p>Hello Windows Insiders,</p> <p>Search is one of the most familiar ways to get...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Google Cloudは新サービス「Gemini Agent」を発表。クラウドで動作するマルチエージェントツールとされる。Geminiに加えて、Anthrop...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "Copilot / Windows",
-      "category_desc": "一次情報・PC",
-      "source": "Windows Blog",
-      "url": "https://blogs.windows.com/windows-insider/2026/10/07/from-searching-to-doing-building-a-faster-more-streamlined-windows-search/"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/09/2000002152/"
     },
     {
-      "title_ja": "Building Windows for hybrid intelligence",
-      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Amazon、「Fire」に代わる新タブレット「Amazon Alexa Tablet」発表　「Amazonキッズタブレット」は日本でも発売へ",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p><span>Agents are creating a foundational shift in how people get things done,...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Amazonは、新タブレット「Amazon Alexa Tablet」3機種を発表した。「Fire」ブランドを刷新し、AndroidとGoogle Playに対...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "Copilot / Windows",
-      "category_desc": "一次情報・PC",
-      "source": "Windows Blog",
-      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002155/"
     },
     {
-      "title_ja": "Microsoft Execution Containers: Policy-driven containment for AI agents",
-      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "トランプ米大統領、「AI」という言葉を使う者は「敵」　政府サイト「AI.gov」は「SI GOV」表記に",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p>Agents are unlocking enormous productivity gains for customers, but their abi...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "トランプ大統領は「Artificial Intelligence」（AI）という言葉を使う者を敵と見なすと投稿した。政府は代替呼称「Super Intellig...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "Copilot / Windows",
-      "category_desc": "一次情報・PC",
-      "source": "Windows Blog",
-      "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002157/"
+    },
+    {
+      "title_ja": "トランプ大統領、マスク氏やフアン氏ら6人に米国家科学賞と国家技術革新賞を授与",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "米トランプ政権は科学サミットを開催し、トランプ大統領がイーロン・マスク氏やNVIDIAのジェンスン・フアンCEOら6人に国家科学賞と国家技術革新賞を授与した。半...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/09/2000002159/"
     }
   ]
 }
