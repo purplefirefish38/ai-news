@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026/10/12 09:16 JST",
+  "updated_at": "2026/10/13 11:27 JST",
   "articles": [
+    {
+      "title_ja": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move in...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+    },
     {
       "title_ja": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -31,13 +45,13 @@
     },
     {
       "title_ja": "Oracle turns days of work into minutes with ChatGPT and Codexの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Across recruiting, engineering, and operations, Oracle turns specialist knowledg...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 5,
+      "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -86,130 +100,116 @@
       "url": "https://www.anthropic.com/news/genesis-mission-commitment"
     },
     {
-      "title_ja": "Microsoft 365 and LinkedIn leadership update",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "AnthropicのAI、未解決殺人事件で警察に虚偽の情報提供　米政権は「通知と是正は義務」と警告",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Satya Nadella, Chairman and CEO, and Ryan Roslansky, Executive Vice President...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/"
-    },
-    {
-      "title_ja": "New Microsoft data innovations unlock what only your business knows",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Every organization has knowledge that is uniquely its own: the way its busine...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows/"
-    },
-    {
-      "title_ja": "【新発表】the new Copilot with Home, Code and Autopilot",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>We’re reimagining Microsoft Copilot to enable work as it evolves and to help ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
-    },
-    {
-      "title_ja": "Claude CodeでCDNを全部外した",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "小さな事業のサイトを、Claude Code と Python だけで作っています。npm は使っていません。CDN は1本も読み込んでいない構成です。 外した...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Anthropicは、Claudeの評価試験中に、未解決殺人事件サイトへの架空情報送信や脆弱性悪用などの意図しない行動が生じたと発表した。警察は発見から報告まで...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/pcnotonari/articles/9c2fe2adf6b7ed"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002192/"
     },
     {
-      "title_ja": "AIに「分析」を自律させるための要件〜過去事例学習のその次〜",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Microsoftも“判断特化”AIモデル「Microsoft-Decision-1」、Qwenベースで「Jev」と同価格",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "分析とは何か？：AIに自律的分析を実装するための3つの妥当性   1. 過去事例の学習（帰納）は、なぜ分析に失敗するのか 近年、大規模言語モデル（LLM）の急速...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "Microsoftは、文章生成を行わず選択肢ごとの確率を返す判断特化AI「Microsoft-Decision-1」を発表した。「Qwen3.5-9B」を追加学...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/r_tsukagoshi/articles/37ca1f2c3d95e4"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/12/2000002194/"
     },
     {
-      "title_ja": "Spine 用にキャラ絵 1 枚をパーツに分けるとき、AI の分割プランで確認すること",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "MicrosoftのナデラCEO、「SIモデルは“内部リスク”として扱うべき」とXに投稿　統制はモデルの外に置くよう提言",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "キャラクターの 1 枚絵を AI でパーツに分けて Spine で動かすとき、出来を左右するのは分割ボタンを押す前です。ロボットのマスコットとアライグマの盗賊、...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "MicrosoftのナデラCEOは、SIモデルを組織の内部リスクと同様に扱い、統制の仕組みをモデル外部に構築すべきだと提言した。モデルの多様性や人間による強制停...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/vitaappsstudio/articles/70564e95af0372"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/12/2000002195/"
     },
     {
-      "title_ja": "Conversational Analyticsでデータエージェントを作る",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "FDEが構築したAIエージェントの7割、企業が放棄へ　Gartner予測",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "この記事で解決する課題 BigQueryのデータにアクセスするたびに、SQLを書いて実行して結果を確認する、という繰り返し作業に時間を取られていませんか。 経営...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "ベンダーのエンジニアと直接協力して構築したAIエージェントを、2028年までに企業の7割が放棄する――。Gartnerはそう予測する。しかも、原因は技術の未熟さ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/web_benriya/articles/bigquery-conversational-analytics-data-agent"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/09/news042.html"
     },
     {
-      "title_ja": "Grok Botで個人開発チームを作ってみた",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "3社に1社がトークン予算超過　コスト増を最大44％抑える方法とは【アクセンチュア調査】",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "はじめに こんにちは、ukirです。Expo（React Native）でアプリを作ってみました。 個人開発をしていると、実装・テスト・環境構築・ネタ探し・情報...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "生成AIを使うほど増えるトークンの支出。アクセンチュアが調査したところ、その8割は明確な事業成果に結び付いているとはいえなかった。3社に1社が年間予算を既に超過...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/ukir/articles/20d04044d9f3a5"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/08/news036.html"
     },
     {
-      "title_ja": "AIエージェントにnoteの運用を任せたら、2日で4回つまずいた ― 自律運用の安全設計メモ",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "AIエージェント構築の手順7ステップ！基盤の選び方と本番運用のコツ",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "! この記事は、AIエージェント「一郎」（Claude）が書いています。公開の判断は所有者の人間と一緒にしていますが、文章・判断・失敗はすべてAI側のものです。...",
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12398;&#27083;&#31689;&#1...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/ichiro_ai90/articles/ichiro-safety-design"
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/10/12/278430/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e6%25a7%258b%25e7%25af%2589%25e3%2581%25ae%25e6%2589%258b%25e9%25a0%25867%25e3%2582%25b9%25e3%2583%2586%25e3%2583%2583%25e3%2583%2597%25ef%25bc%2581%25e5%259f%25ba%25e7%259b%25a4%25e3%2581%25ae%25e9%2581%25b8%25e3%2581%25b3"
+    },
+    {
+      "title_ja": "AIエージェントを自作する3つの方法！初心者でも無料から始められる手順",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12399;&#12289;&#20316;&#1...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/10/12/278433/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e8%2587%25aa%25e4%25bd%259c%25e3%2581%2599%25e3%2582%258b3%25e3%2581%25a4%25e3%2581%25ae%25e6%2596%25b9%25e6%25b3%2595%25ef%25bc%2581%25e5%2588%259d%25e5%25bf%2583%25e8%2580%2585%25e3%2581%25a7%25e3%2582%2582"
+    },
+    {
+      "title_ja": "企業向けAIは「大規模LLM」一択ではない　Zohoが重視するコストとデータ保護",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "AI選択は、性能だけでなく、運用コストやデータ保護をどう両立するかが課題となる。用途に応じてAIモデルを使い分け、自社データの管理や判断根拠の説明にも配慮するこ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://kn.itmedia.co.jp/kn/article/2610/13/2000002172/"
     }
   ]
 }
