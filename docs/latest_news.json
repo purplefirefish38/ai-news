@@ -1,57 +1,43 @@
 {
-  "updated_at": "2026/10/19 07:50 JST",
+  "updated_at": "2026/10/20 09:08 JST",
   "articles": [
     {
-      "title_ja": "Itaú is building generative AI for its entire customer baseの仕組みと解説",
+      "title_ja": "Advancing coding in low‑resource programming languages",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "With ia.i, a conversational interface, and the IARA governance platform, Itaú is...",
+        "Learn how OpenAI is improving ChatGPT across low-resource programming languages,...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/itau-generative-ai"
+      "url": "https://openai.com/index/low-resource-programming-languages"
     },
     {
-      "title_ja": "Benefit Street Partners answers questions faster with Codex",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "title_ja": "Securing the agentic insider",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Anant Kumar builds tools to compare loan valuations and analyze credit agreement...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>In the last few months, concerns have arisen about AI safety as a growing num...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
-      "tag": "ChatGPT / OpenAI",
+      "tag": "Copilot / Microsoft",
       "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/benefit-street-partners"
-    },
-    {
-      "title_ja": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and i...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin"
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
     },
     {
       "title_ja": "Oct 6, 2026 We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Expanding the Cyber Verification Program Announcements Oct 6, 2026 We’re launchi...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -86,130 +72,144 @@
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
     },
     {
-      "title_ja": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "AI活用で約2900時間削減した世田谷区、しかし「確認と修正の負担」増加　新たな課題どう対応？",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move in...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "世田谷区が生成AIを活用し、業務時間の削減に成功した。しかし、AIによる生成物に対して「確認と修正の負担が増えている」という。この課題にどう向き合うのか。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/19/news064.html"
     },
     {
-      "title_ja": "Microsoft 365 and LinkedIn leadership update",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Satya Nadella, Chairman and CEO, and Ryan Roslansky, Executive Vice President...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update/"
-    },
-    {
-      "title_ja": "New Microsoft data innovations unlock what only your business knows",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Every organization has knowledge that is uniquely its own: the way its busine...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/09/28/new-microsoft-data-innovations-unlock-what-only-your-business-knows/"
-    },
-    {
-      "title_ja": "「そもそも親にAIなんて必要ない」　65歳以上の生成AI利用、子世代の7割が拒否する理由",
+      "title_ja": "AIエージェントの業務管理、答えは「プロジェクト管理」にある？　NTTテクノクロスの「AI-PMO」構想を基に考察",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "SHIFT AIが65歳以上の親を持つ全国の30～50代男女723人を対象とした「シニア×AIの意識調査」の結果を発表。親に生成AIを使ってほしくない子世代が6...",
+        "人間とAIエージェントが協働してどのように成果を上げ、目標を達成するか。そのマネジメントはプロジェクト管理の手法で担えないか――。NTTテクノクロスの取り組みか...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/19/news068.html"
     },
     {
-      "title_ja": "「11回止めたのに本番DBが消えた」　AIエージェント“6つの暴走”と、人間の承認を増やしても防げない理由",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "AIコーディングエージェントの自律性が高まる一方、本番データベースの削除といった事故も起こっています。では、「人間の承認」を増やせば事故は防げるのでしょうか。事...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html"
-    },
-    {
-      "title_ja": "Claude Haiku 4.5 → 5.5 で答えはどう変わる？同じ100問を11日間聞き比べた",
+      "title_ja": "Jevの画像入力とOpenAI Decisions APIを比べてみる",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "Claude Haiku 4.5 は、10月29日に Claude アプリのモデル選択から外れ、Haiku 5.5 に置き換わります。API ではまだ使えますが...",
+        "はじめに TypeSafeのJevが画像入力に対応しました。 この記事では、Jevの画像入力でできることを確認します。 さらにOpenAIのDecisions ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/aimodelrecord/articles/claude-haiku-45-to-55"
+      "url": "https://zenn.dev/tkada/articles/ae2519179679df"
     },
     {
-      "title_ja": "なぜ既存のChromeにタスク用Workspaceを作るのか",
+      "title_ja": "Codexに動画を調べさせても、発言の時刻と文言は確認できなかった",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "ブラウザー操作ツールはすでにいくつもあります。新しく作る理由を考えるとき、どんな操作コマンドを増やすかより先に、どの作業環境を残したいのかを決める必要がありまし...",
+        "AI ツールに公式の発信を調べさせて、自分のルールに取り込もうとしたとき、情報源は文章と動画に分かれます。ところが AI ツールごとに得意な入力は違っていて、動...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/beatapi/articles/37fda1795918b7"
+      "url": "https://zenn.dev/twinharness/articles/video-codex-text-claude-crosscheck"
     },
     {
-      "title_ja": "スカートは、膝下丈で壊れる③　歩けないでいい。縄だもん",
+      "title_ja": "大規模言語モデルって、結局なに？",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "! VRM の人物のスカートを、揺れ物（SpringBone）から外して、自分で作った記録です。全 3 回の ③（ほかの回：①、②）。 地の文は著者が書き、言い...",
+        "! この記事は個人ブログにも掲載しています → https://kanfu-panda.github.io/ja/blog/2026/10/19/what-is...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/n416s/articles/skirt-cloth-3-nawa"
+      "url": "https://zenn.dev/kanfupanda/articles/what-is-an-llm"
     },
     {
-      "title_ja": "IAPを既存セッションから使う：手動CLIとフック導入を分ける",
+      "title_ja": "「普通に欲しい」を作ったら、AIハッカソンで3位になった",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "IAP（Interaction Accommodation Protocol）は、目的・完成条件・実成果を対応づけ、AIや周囲が仕事へ戻る支援をしやすくするため...",
+        "2026年10月18日、渋谷のAbema Towersで開催されたDevDay Community Hackathonに参加しました。ぬこぬこさん主催の「Fab...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/partial_stds/articles/68e1fb9a15e2f1"
+      "url": "https://zenn.dev/masahide/articles/e3abc0b59cabfb"
+    },
+    {
+      "title_ja": "コンカフェ1店舗のために、9つの業務システムをAIと作った話",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "こんにちは、Koyabase 合同会社です。 群馬県高崎市でコンセプトカフェ「けもみみかふぇ」を運営しながら、お店で使う業務システムを自分たちで作っています。 ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/koyabase/articles/kemo-concafe-9-systems-with-ai"
+    },
+    {
+      "title_ja": "預ける前に、内見を。NAIKENの仕組みと機能",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "NAIKEN（ナイケン）はWebサービスのURLを入れると、外から見える範囲だけを読み取り、個人情報を預ける前の判断材料を出すWebアプリです。DevDay C...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/masahide/articles/9649ab5073f562"
+    },
+    {
+      "title_ja": "【個人開発】AIに社外秘や個人情報を貼る前にブラウザ内で仮名化、AIの回答を1クリックで元の名前に復元するツールを作った（通信ゼロ・無料）",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "AIにログや顧客メールを貼りたいが、うっかり漏洩と手作業での書き戻しがつらい問題 日々の開発や業務で ChatGPT、Claude、Gemini にエラーログや...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/mint69/articles/31f72b57a0206e"
+    },
+    {
+      "title_ja": "AI問い合わせ振り分けの納品検収、期待動作4種と例外ケースをPythonで照合する",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "社内のIT問い合わせをAIで担当ごとに振り分ける仕組みを外注したとき、デモで数件うまく動いたことと、納品を受け取ってよいことは別です。この記事は、発注者が納品前...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/kagaage/articles/2816c6e997e6c9"
     }
   ]
 }
