@@ -1,71 +1,29 @@
 {
-  "updated_at": "2026/10/22 08:55 JST",
+  "updated_at": "2026/10/23 08:54 JST",
   "articles": [
     {
-      "title_ja": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "title_ja": "Cloudflare links vulnerability discovery to defense with OpenAI",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 2...",
+        "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/terminal-x"
-    },
-    {
-      "title_ja": "Advancing digital sovereignty with greater control and choice",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Across my conversations with leaders in government, critical infrastructure a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
-    },
-    {
-      "title_ja": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 9...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/ted-taylor-restaurant"
-    },
-    {
-      "title_ja": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, str...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/empowering-cyber-defenders"
+      "url": "https://openai.com/index/cloudflare-cyber"
     },
     {
       "title_ja": "Using thousands of AI agents to uncover new leads in biological data",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to un...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -73,13 +31,13 @@
     },
     {
       "title_ja": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Patch the Planet connects security researchers, maintainers, and incident respon...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -156,6 +114,34 @@
       "url": "https://openai.com/index/broad-access-through-consistent-standards"
     },
     {
+      "title_ja": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams re...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout"
+    },
+    {
+      "title_ja": "Build more responsive apps with the Decisions API",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Fast, focused, low-cost decisions for any application....",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/decisions-api"
+    },
+    {
       "title_ja": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
@@ -170,46 +156,60 @@
       "url": "https://www.anthropic.com/news/cyber-verification-program"
     },
     {
-      "title_ja": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "title_ja": "Donating Agent Skills to the Agentic AI Foundation",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust...",
+        "Donating Agent Skills to the Agentic AI Foundation...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust"
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
     },
     {
-      "title_ja": "An update on independent evaluators",
+      "title_ja": "Open call for guest investigators in the life sciences",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "An update on independent evaluators...",
+        "Open call for guest investigators in the life sciences...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
     },
     {
-      "title_ja": "デジタル庁、「神Excel」対策ツールを公開　AIと組み合わせたデータ整備方法も紹介",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Advancing digital sovereignty with greater control and choice",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "デジタル庁が、Excelファイルなどが“機械にとって読みやすいか”を判定するツール「Harunobu」を公開している。紙に印刷した際のレイアウトを優先してセル結...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Across my conversations with leaders in government, critical infrastructure a...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002475/"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
+    },
+    {
+      "title_ja": "Securing the agentic insider",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>In the last few months, concerns have arisen about AI safety as a growing num...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
     }
   ]
 }
