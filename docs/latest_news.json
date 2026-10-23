@@ -1,145 +1,89 @@
 {
-  "updated_at": "2026/10/23 08:54 JST",
+  "updated_at": "2026/10/24 08:45 JST",
   "articles": [
     {
-      "title_ja": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/cloudflare-cyber"
-    },
-    {
-      "title_ja": "Using thousands of AI agents to uncover new leads in biological data",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to un...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data"
-    },
-    {
-      "title_ja": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Patch the Planet connects security researchers, maintainers, and incident respon...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
-    },
-    {
-      "title_ja": "we built ChatGPT’s novel ad stack for user trust and relevanceの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversation...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack"
-    },
-    {
-      "title_ja": "OpenAI models are coming to Google Cloud",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemi...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-models-google-cloud"
-    },
-    {
-      "title_ja": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "From local businesses to global brands, more advertisers can now reach people as...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries"
-    },
-    {
-      "title_ja": "AT&T is rethinking in-house legal work with OpenAIの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/att-legal"
-    },
-    {
-      "title_ja": "Broad access through consistent standards",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "How OpenAI works with distribution partners to uphold consistent safeguards, sup...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards"
-    },
-    {
       "title_ja": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams re...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/uber-chatgpt-work-rollout"
     },
     {
+      "title_ja": "What FDE means at OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "What forward deployed engineering means at OpenAI...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/forward-deployed-engineering-means"
+    },
+    {
       "title_ja": "Build more responsive apps with the Decisions API",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Fast, focused, low-cost decisions for any application....",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/decisions-api"
+    },
+    {
+      "title_ja": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical re...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/decisions-api"
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+    },
+    {
+      "title_ja": "Securing our frontier model training environment",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI explains how we strengthened containment for frontier model training and ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    },
+    {
+      "title_ja": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
     },
     {
       "title_ja": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
@@ -210,6 +154,62 @@
       "category_desc": "一次情報・公式",
       "source": "Microsoft Official",
       "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+    },
+    {
+      "title_ja": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move in...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+    },
+    {
+      "title_ja": "なぜ、重要システムは“分割”すべきなのか？　AI攻撃から守り切れない時代、IT部門が考えるべき「備え」とは",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "生成AIが東大の入試問題で合格者最高点を上回った今、その能力はサイバー攻撃でも威力を発揮している。攻撃からシステムを守り切れない前提に立つとき、その被害を最小化...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/23/news010.html"
+    },
+    {
+      "title_ja": "1バイト違えば不合格のCOBOL移行、OpenAI新モデルの正解率は？",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "学習リソースの少ないCOBOLやFortranを、AIはどこまで扱えるのか。OpenAIは、20言語でデータベースエンジンを構築するテストで、新モデルの平均合格...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/22/news077.html"
+    },
+    {
+      "title_ja": "“あいまいな指示”を入力されたAIは安全なコーディングができない？　香港科技大などが調査",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "香港科技大学などに所属する研究者らが7月に発表した論文「Coding Agents Are Guessing: Measuring Action-Boundar...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2610/23/2000002513/"
     }
   ]
 }
