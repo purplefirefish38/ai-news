@@ -1,47 +1,117 @@
 {
-  "updated_at": "2026/10/26 08:02 JST",
+  "updated_at": "2026/10/27 09:15 JST",
   "articles": [
     {
-      "title_ja": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "title_ja": "【新発表】GPT-6.1 Terra",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and...",
+        "Bringing fast and capable computer use to everyone...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     {
-      "title_ja": "Securing our frontier model training environment",
+      "title_ja": "Fanatics and OpenAI streamline the fan experienceの仕組みと解説",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI explains how we strengthened containment for frontier model training and ...",
+        "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience"
     },
     {
-      "title_ja": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "title_ja": "Ultrafast cut incident investigation from hours to minutes at OpenAIの仕組みと解説",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical re...",
+        "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership"
+      "url": "https://openai.com/index/openai-cut-incident-investigation"
+    },
+    {
+      "title_ja": "ChatGPT’s expanding world of work",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work"
+    },
+    {
+      "title_ja": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebas...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+    },
+    {
+      "title_ja": "Working with academic communities to build scientific understanding",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesi...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+    },
+    {
+      "title_ja": "【新発表】a Voluntary Exit Offer",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Amy Coleman, Executive Vice President and Chief People Officer, shared the be...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
+    },
+    {
+      "title_ja": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen sec...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra"
     },
     {
       "title_ja": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
@@ -58,6 +128,20 @@
       "url": "https://www.anthropic.com/news/cyber-verification-program"
     },
     {
+      "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
+        "Anthropic files S-1 with the SEC for proposed initial public offering...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Claude / Anthropic",
+      "category_desc": "一次情報・公式",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    },
+    {
       "title_ja": "Donating Agent Skills to the Agentic AI Foundation",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
@@ -72,144 +156,60 @@
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
     },
     {
-      "title_ja": "Open call for guest investigators in the life sciences",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Open call for guest investigators in the life sciences...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Claude / Anthropic",
-      "category_desc": "一次情報・公式",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences"
-    },
-    {
-      "title_ja": "Advancing digital sovereignty with greater control and choice",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Across my conversations with leaders in government, critical infrastructure a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
-    },
-    {
-      "title_ja": "Securing the agentic insider",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>In the last few months, concerns have arisen about AI safety as a growing num...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
-    },
-    {
-      "title_ja": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Azure Maia 200 now in production; Azure Maia 300 coming in 2027 As we move in...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
-    },
-    {
-      "title_ja": "「それは“FDE”ではない、ラベルの貼り替えだ」　結局、割高なベンダー依存から抜け出せない企業の共通点",
+      "title_ja": "AIガバナンス一元化の「理想と限界」とは？　 米Dataikuの新サービスから考察",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Gartnerは、FDE（Forward Deployed Engineering）によって構築されたエージェント型AIについて、2028年までに企業の7割が放...",
+        "他社のAIエージェント管理基盤まで統治の対象にする――。米Dataikuの新サービスは、マルチベンダー環境でガバナンスを一元管理するという理想に踏み出した。だが...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2610/24/news006.html"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/26/news060.html"
     },
     {
-      "title_ja": "守りたい性質からはじめるコード観測",
+      "title_ja": "属人化をなくすために作ったAIが、私専用の道具になった",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "これまでのソフトウェア開発は、人がコードを読んで理解することを前提にしてきました。分かりやすい名前を付け、長い処理を分けるのも、読む人が意図を追えるようにするた...",
+        "! この記事の要点  SOCの不審メール判定の属人化を減らすために、メールのソースから一次判定するAIエージェントを作った 本番には入らず、今は私だけが使う道具...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/iroha1203/articles/138dfbf70a9167"
+      "url": "https://zenn.dev/think_node/articles/f35c405ace7f52"
     },
     {
-      "title_ja": "最近のエージェンティック開発について調べてみた",
+      "title_ja": "320BのエージェントCLIモデルIQuest-Q1は動かせなかったが、ライセンスとトークナイザは実際に確認できた",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "最近の私の開発は、AI との対話で大きめの GitHub Issue を作り、それらの PR 作成 + AI レビューまで AI にやってもらって、最後に必要な...",
+        "Hugging Face Daily Papersに上位掲載されていた「IQuest-Q1」という疎MoE基盤モデルを調べた。総パラメータ320B、コンテキスト...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/shoyataguchi/articles/bc98b3562bdf3a"
+      "url": "https://zenn.dev/matsushima_a/articles/day-027-iquest-q1-license-and-tokenizer"
     },
     {
-      "title_ja": "おい！あなたのGPU演算能力制限されてますよ👽",
+      "title_ja": "【HN話題】もっと野心的なソフトを作ろう！AI時代のエンジニア論",
       "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "技術・実践に関する重要アップデートと最新機能の公開",
-        "おい！あなたのGPU演算能力制限されてますよ👽 最近、gpu-unlockが話題ですね。 素人ながら調べてみると、いろいろ面白かったので備忘録としてなんとなくま...",
+        "海外のエンジニアコミュニティ Hacker News にて、Dan Luu 氏による論考**「We should be more ambitious with ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "技術・実践",
       "category_desc": "エンジニア技術・実践ノウハウ",
       "source": "Zenn (AI)",
-      "url": "https://zenn.dev/minecode/articles/b4b9f7babcd56d"
-    },
-    {
-      "title_ja": "動画の物体除去で先に確認したいマスクと時間方向の整合性",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "動画から不要な人物や物体を消すときは、処理後の1フレームだけでは仕上がりを判断できません。対象を正しく選べているかと、補完された背景が再生中に自然に見えるかを分...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/lijinxuanvideo/articles/2d3111be231359"
-    },
-    {
-      "title_ja": "最新AI「Argon」に20年目の情シスになってもらい、自作Robocopyツールを酷評させたら設計のツボを突かれすぎた話",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "Windowsのバックアップ自動化ツール「RobocopyScheduler」を個人開発している chilili kobo です。 個人開発ツールのセルフプロモ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/chililikobo/articles/21ca08d7f48cea"
+      "url": "https://zenn.dev/ament3/articles/ai-digest-2026-10-25-0003"
     }
   ]
 }
