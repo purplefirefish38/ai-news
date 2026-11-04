@@ -1,34 +1,6 @@
 {
-  "updated_at": "2026/11/03 11:47 JST",
+  "updated_at": "2026/11/04 10:05 JST",
   "articles": [
-    {
-      "title_ja": "Qodo builds context into AI code review with Codex",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Qodo brings company knowledge and coding standards into Codex, helping developer...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/qodo-codex-plugin"
-    },
-    {
-      "title_ja": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI appoints Dan Driscoll to advise on responsible AI for national security m...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai"
-    },
     {
       "title_ja": "LifeVal",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -45,13 +17,13 @@
     },
     {
       "title_ja": "【新発表】the Grid Protectors Program",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "OpenAI’s Grid Protectors Program will work with utilities to help future compute...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -59,17 +31,101 @@
     },
     {
       "title_ja": "Scaling Git at OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "How OpenAI built Pando, a Git-compatible backend designed for the scale of devel...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/scaling-git-at-openai"
+    },
+    {
+      "title_ja": "Rewarding defenders with bigger bug bounties",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI is raising Security Bug Bounty rewards and introducing report quality, lo...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/scaling-git-at-openai"
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties"
+    },
+    {
+      "title_ja": "Preparing our next security sprint to harden OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI is preparing its next internal security sprint with Cathedral Systems to ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai"
+    },
+    {
+      "title_ja": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
+    },
+    {
+      "title_ja": "Cisco defends at machine speed with OpenAIの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Cisco combines network intelligence with OpenAI models to strengthen enterprise ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/cisco-cyber"
+    },
+    {
+      "title_ja": "Heimstaden is changing residential real estate management with AI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/heimstaden"
+    },
+    {
+      "title_ja": "Accelerating engineering for the physical world",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design,...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -154,62 +210,6 @@
       "category_desc": "一次情報・公式",
       "source": "Microsoft Official",
       "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
-    },
-    {
-      "title_ja": "「保安検査の長い列」と「人手不足」をどう解消する？　フランクフルト空港におけるAI時代の空港DX",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "4月に開業したフランクフルト空港の第3ターミナル。IT技術やAIを導入し、顧客体験の向上や業務効率化を行っている。どのような技術を導入し、「止まらない空港」を実...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news003.html"
-    },
-    {
-      "title_ja": "キオクシア「設備投資を急がねば……」　2027年分は完売、メモリ供給追い付くか",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "半導体メモリ大手のキオクシアは、2027年の生産能力が全て“完売”だと明かした。AIブームによる旺盛なメモリ需要に答えるため、年5000億円弱を投じて新工場を建...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news031.html"
-    },
-    {
-      "title_ja": "その日、メルカリは「業務を止めた」――上司と部下が対立も、AI利用率100％をかなえたCAIOの奮闘記",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "AIツールの利用率100％を達成したメルカリ。しかし「AIエージェント構築に時間を割きたい部下と、それを止めたい上司」など一筋縄ではいかなかった。試行錯誤の裏側...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/business/articles/2611/02/news032.html"
-    },
-    {
-      "title_ja": "Anthropic、「Claude」の「Max 20x」を「Ultra」に名称変更　月200ドルで5時間ごとの利用制限を撤廃",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Anthropicは、「Claude」の個人向け有料プランの名称を変更し、月額100ドルの「Max 5x」を「Max」に、月額200ドルの「Max 20x」を「...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/02/2000002777/"
     }
   ]
 }
