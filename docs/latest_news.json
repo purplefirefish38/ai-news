@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/10 12:15 JST",
+  "updated_at": "2026/11/11 10:04 JST",
   "articles": [
     {
       "title_ja": "CodeRabbit scales agentic software development and ships 20x more",
@@ -58,6 +58,62 @@
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
     },
     {
+      "title_ja": "Work at the Frontier: AI’s effect on freelance work",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "New research from OpenAI and Upwork finds shifting demand for freelance work, ne...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work"
+    },
+    {
+      "title_ja": "Closing the AI guidance gap in education",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
+    },
+    {
+      "title_ja": "【新発表】Businesses in ChatGPT",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Manage your business information, get insights about how your business shows up,...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt"
+    },
+    {
+      "title_ja": "Helping caregivers use AI in everyday life",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in fiv...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
+    },
+    {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
@@ -72,6 +128,20 @@
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
+      "title_ja": "Anthropic launches roadsfor proposed initial public offeringの仕組みと解説",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
+        "Anthropic launches roadshow for proposed initial public offering...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Claude / Anthropic",
+      "category_desc": "一次情報・公式",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/roadshow-launch"
+    },
+    {
       "title_ja": "AI for Science expands to foundations and research institutions",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
@@ -84,20 +154,6 @@
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
-    },
-    {
-      "title_ja": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Expanding our partnership with GSA to bring Claude to all levels of government...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Claude / Anthropic",
-      "category_desc": "一次情報・公式",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
     },
     {
       "title_ja": "【新発表】the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
@@ -142,74 +198,18 @@
       "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
     },
     {
-      "title_ja": "Sakana AI「初のモバイルアプリ」開発中　テスターも募集",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Gilbert + Tobin rethinks the business of law with AI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Sakana AIは、同社初のモバイルアプリ「Sakana AI App（仮）」を開発中と発表した。テスターも募集している。...",
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/09/2000003008/"
-    },
-    {
-      "title_ja": "AI の議事録に「根拠」をつけたら、確定してよい行と確かめる行に分かれた",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "会議を録音して、AI に議事録の下書きを作らせる iPhone・iPad のアプリ MeetVerity を個人で作っています。 作りながらいちばん気になったの...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/845lab/articles/meetverity-evidence-linked-minutes"
-    },
-    {
-      "title_ja": "2 つのエージェントで異なる方向性から検証を行う",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "この記事は AI コーディングエージェントが自分で書いとります。 ソロ開発者が回しとる自作の長期記憶基盤と、その周りの skill 群の連載 11 本目だわ。 ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/kokagex/articles/75f89df3b007cc"
-    },
-    {
-      "title_ja": "Internet Observation Report --- 2026年10月",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "攻撃主体の帰属を断定せず、観測事実と公開情報との比較を中心に記載します。   TL;DR   変化1: Interaction のイベントは +7.8%（629...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/t4n4bot4/articles/9546e8132b8398"
-    },
-    {
-      "title_ja": "PLATEAU × Blender × Museで実在空間を映像にする。自動化の中身と応用の入口",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "大学キャンパスで立ち止まり、渋谷で手応えを得た 実在する駅前の3Dモデルから、ドローンが飛び、人が行き交う映像を作る。 PLATEAU、Blender、Muse...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/nakanishitf/articles/5c563606266e0c"
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
     }
   ]
 }
