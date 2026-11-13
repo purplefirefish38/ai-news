@@ -1,117 +1,117 @@
 {
-  "updated_at": "2026/11/12 11:08 JST",
+  "updated_at": "2026/11/13 10:43 JST",
   "articles": [
     {
-      "title_ja": "Work at the Frontier: AI’s effect on freelance work",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "New research from OpenAI and Upwork finds shifting demand for freelance work, ne...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work"
-    },
-    {
-      "title_ja": "Singapore Airlines elevates travel & work with OpenAI technology",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Discover how Singapore Airlines uses OpenAI models and API to enhance customer s...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/singapore-airlines-travel-work"
-    },
-    {
-      "title_ja": "Closing the AI guidance gap in education",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/closing-ai-guidance-gap-education"
-    },
-    {
-      "title_ja": "【新発表】Businesses in ChatGPT",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Manage your business information, get insights about how your business shows up,...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt"
-    },
-    {
-      "title_ja": "Helping caregivers use AI in everyday life",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in fiv...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life"
-    },
-    {
-      "title_ja": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his less...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/jiostar-vijay-seshadri"
-    },
-    {
       "title_ja": "ChatGPT Plus for veterans and servicemembers",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "More than 20,000 veterans and transitioning service members have claimed a free ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/chatgpt-plus-for-veterans"
     },
     {
+      "title_ja": "Supporting research on AI and children’s safety",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI commits $2 million to research on AI and children’s safety. The work supp...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/children-first-declaration"
+    },
+    {
       "title_ja": "Gilbert + Tobin rethinks the business of law with AI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+    },
+    {
+      "title_ja": "Holiday Extras is rethinking what it can build with Codex",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "With Codex, Holiday Extras is turning customer expertise into better apps, highe...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 4,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+    },
+    {
+      "title_ja": "Gondola doubles revenue as its team builds more with Codex",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Gondola helps creatives get credit and get hired, with Codex raising its lead en...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/gondola"
+    },
+    {
+      "title_ja": "Scaling AI value without losing control: Lessons from Frontier Firms",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Results are widespread. Value at scale is not, and that gap is what this year...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
+    },
+    {
+      "title_ja": "From AI ambition to business impact",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Most business leaders I meet no longer need to be convinced that AI works. Th...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"
+    },
+    {
+      "title_ja": "Amplitude ships product improvements in 1–2 days with OpenAIの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, ide...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/amplitude"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -156,60 +156,60 @@
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
     },
     {
-      "title_ja": "【新発表】the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "初の週次レビュー ― 5日間の台帳を集計して「続ける／直す／やめる」を決めた話",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>If you want to compete, you need to be multi-model. And if you want to take a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
-    },
-    {
-      "title_ja": "The platform approach to becoming Frontier",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Last year at Ignite, we introduced the concept of Frontier Transformation and...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/"
-    },
-    {
-      "title_ja": "【新発表】a Voluntary Exit Offer",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Amy Coleman, Executive Vice President and Chief People Officer, shared the be...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/"
-    },
-    {
-      "title_ja": "AIエージェントとは？仕組みと種類から企業の導入手順まで解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#12300;AI&#12456;&#12540;&#12472;&#12455;&#12531;&#12488;&#12301;&#12392;&#1...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "始めて5日目、初めての週次レビュー AI収益の仕組みを動かし始めて、2026-11-09で5日目になった。月曜21:30に、初の週次レビューを行った。集計期間は...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/11/278509/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25bb%2595%25e7%25b5%2584%25e3%2581%25bf%25e3%2581%25a8%25e7%25a8%25ae%25e9%25a1%259e%25e3%2581%258b%25e3%2582%2589%25e4%25bc%2581%25e6%25a5%25ad%25e3%2581%25ae%25e5%25b0%258e%25e5%2585%25a5"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/ai_secretary/articles/2a243ba767f5e3"
+    },
+    {
+      "title_ja": "小さなツールをAIと作って売る — フォロワー0からの実践と逆算の技術",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "フォロワー0から、AIと一緒に小さなHTMLツールを企画・制作し、noteやBOOTHで販売するまでの実践記録。目標金額から逆算する考え方、単一HTMLで完結す...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/fast_snake57/books/2b8db1deddec17"
+    },
+    {
+      "title_ja": "ISUCONから学ぶAIとの付き合い方",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "ISUCON2026の参加記の続きです。本番は約6万点で終わりました。その後の感想戦で、同じClaude Codeに続きをやらせたら61万点まで伸びました。 伸...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/ojey/articles/isucon2026-kansousen"
+    },
+    {
+      "title_ja": "中国・10年物PHPのEC基幹を4人×2週間でJavaへ——AIを「865行のルール」と「差分比較コマンド」で縛った移行手順",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "「AIで54万行を2週間で移行」と聞いて、まず疑ったのは現場のエンジニアたちでした。中国で話題になったこの事例は、続編の記事で“2週間”の中身と、AIを縛った具...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/soliperse/articles/8f3e21e9d26f92"
     }
   ]
 }
