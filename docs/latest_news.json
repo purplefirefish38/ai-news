@@ -1,85 +1,15 @@
 {
-  "updated_at": "2026/11/14 10:19 JST",
+  "updated_at": "2026/11/15 09:49 JST",
   "articles": [
     {
-      "title_ja": "Holiday Extras is rethinking what it can build with Codex",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "With Codex, Holiday Extras is turning customer expertise into better apps, highe...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
-    },
-    {
-      "title_ja": "Gondola doubles revenue as its team builds more with Codex",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Gondola helps creatives get credit and get hired, with Codex raising its lead en...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/gondola"
-    },
-    {
-      "title_ja": "Scaling AI value without losing control: Lessons from Frontier Firms",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Results are widespread. Value at scale is not, and that gap is what this year...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
-    },
-    {
-      "title_ja": "From AI ambition to business impact",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Most business leaders I meet no longer need to be convinced that AI works. Th...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"
-    },
-    {
-      "title_ja": "Amplitude ships product improvements in 1–2 days with OpenAIの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, ide...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/amplitude"
-    },
-    {
       "title_ja": "Shield helps technicians hand off legacy portal work with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its F...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -87,13 +17,13 @@
     },
     {
       "title_ja": "【新発表】ChatGPT Wallet",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -101,13 +31,13 @@
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Anthropic files S-1 with the SEC for proposed initial public offering Today, Ant...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -142,74 +72,144 @@
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
     },
     {
-      "title_ja": "JR九州の非IT部門がGeminiでPythonアプリを内製開発　2?3カ月で完成させた方法",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "From AI ambition to business impact",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "JR九州は「Google Workspace with Gemini」を導入して非エンジニアによる業務アプリの内製化を進めている。IT人材不足や外部ベンダー依存...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Most business leaders I meet no longer need to be convinced that AI works. Th...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/13/2000003142/"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"
     },
     {
-      "title_ja": "AIエージェントを「追えない、止められない」　約半数が経験する“暴走”、浮上する3つの盲点",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "Scaling AI value without losing control: Lessons from Frontier Firms",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "APIセキュリティベンダーSalt Securityの調査では、約半数の組織がAIエージェントによる意図しない行動を確認していることが分かった。一方で組織は、A...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Results are widespread. Value at scale is not, and that gap is what this year...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/13/news036.html"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
     },
     {
-      "title_ja": "NECがデータカタログ1435個を1年で整備　AIによる意思決定支援への挑戦",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "【新発表】the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "NECは5年間でデータ基盤を整え、従業員から経営トップまでが同じダッシュボードで判断する文化を定着させた。だが、AIで経営の意思決定を支援する段階に進もうとした...",
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>If you want to compete, you need to be multi-model. And if you want to take a...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/enterprise/articles/2610/30/news006.html"
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
     },
     {
-      "title_ja": "設計／製造から工場運用へ、オートデスクが描く工場全体の最適化戦略",
+      "title_ja": "「AI処理、データ非保持が守られず」――Notionが委託先の問題指摘、漏えいの恐れ巡り",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "オートデスクは、製品の設計／製造から工場の計画／設計、シミュレーション、設備保全まで支援領域を広げている。「JIMTOF2026」の開催にあわせて来日した米国本...",
+        "クラウド型ワークスペース「Notion」のAI機能「Notion AI」のチャット記録が漏えいした恐れがある事案を巡り、Notion運営の米Notion Lab...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/13/news012.html"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172/"
     },
     {
-      "title_ja": "Google、高速で低価格の「Gemini 4 Hydrogen」発表　無料ユーザーも利用可能",
+      "title_ja": "「好機が来た」――なぜ今Sakana AIは、イチからAIモデルを作るのか　“新たな一手”のねらいを聞いた",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Googleは、AIエージェントによる作業や日常的なコーディングに向けた高速・高効率の新モデル「Gemini 4 Hydrogen」を発表した。「Gemini ...",
+        "既存モデルの活用に注力してきたSakana AIが、自社で一からAIモデルの開発を始めた。なぜ今なのか。背景や狙いを聞いた。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003162/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003141/"
+    },
+    {
+      "title_ja": "Googleの社内専用コーディングAI「GfG」、その全容　Geminiに社内データ1兆トークン学習させ開発　所要時間半減の業務も",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "米Googleなどに所属する研究者らが10月に発表した論文「Customizing an LLM for Enterprise Software Enginee...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
+    },
+    {
+      "title_ja": "AI面接官とは？人事向けに導入手順とツール比較・費用を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#24540;&#21215;&#25968;&#12364;&#22679;&#12360;&#12427;&#12383;&#12403;&#123...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/14/278515/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e9%259d%25a2%25e6%258e%25a5%25e5%25ae%2598%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%25ba%25e4%25ba%258b%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e5%25b0%258e%25e5%2585%25a5%25e6%2589%258b%25e9%25a0%2586%25e3%2581%25a8%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e6%25af%2594%25e8%25bc%2583%25e3%2583%25bb"
+    },
+    {
+      "title_ja": "AIエージェントの労務活用 入退社・社会保険手続きの自動化範囲と導入手順を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#20837;&#36864;&#31038;&#12398;&#12383;&#12403;&#12395;&#26360;&#39006;&#124...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/14/278518/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%258a%25b4%25e5%258b%2599%25e6%25b4%25bb%25e7%2594%25a8-%25e5%2585%25a5%25e9%2580%2580%25e7%25a4%25be%25e3%2583%25bb%25e7%25a4%25be%25e4%25bc%259a%25e4%25bf%259d%25e9%2599%25ba%25e6%2589%258b%25e7%25b6%259a"
+    },
+    {
+      "title_ja": "AIエージェントを人事・採用に活用！自動化できる4つの業務と注意点",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#25505;&#29992;&#23455;&#21209;&#12395;&#21152;&#12360;&#12390;&#20837;&#310...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/14/278521/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e4%25ba%25ba%25e4%25ba%258b%25e3%2583%25bb%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25ab%25e6%25b4%25bb%25e7%2594%25a8%25ef%25bc%2581%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b"
+    },
+    {
+      "title_ja": "Announcing new builds for 13 November 2026",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p>Hello Windows Insiders,</p> <p>Today, we’re releasing new Windows 11 Insider ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/"
     }
   ]
 }
