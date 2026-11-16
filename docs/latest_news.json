@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026/11/15 09:49 JST",
+  "updated_at": "2026/11/16 09:48 JST",
   "articles": [
     {
-      "title_ja": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "title_ja": "Our new blog for science",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its F...",
+        "The OpenAI science blog shares new findings, practical methods, and firsthand ac...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/shield"
+      "url": "https://openai.com/index/our-new-blog-for-science"
     },
     {
-      "title_ja": "【新発表】ChatGPT Wallet",
+      "title_ja": "A step toward defining the Standard Model on a lattice",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and ...",
+        "Explore a candidate nonperturbative lattice definition of the Standard Model and...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet"
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -114,102 +114,102 @@
       "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
     },
     {
-      "title_ja": "「AI処理、データ非保持が守られず」――Notionが委託先の問題指摘、漏えいの恐れ巡り",
+      "title_ja": "【追記あり】M365障害、ChatGPT／Claudeのコネクタにも影響　「ほとんどのリクエストで動作しない」",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "クラウド型ワークスペース「Notion」のAI機能「Notion AI」のチャット記録が漏えいした恐れがある事案を巡り、Notion運営の米Notion Lab...",
+        "「Microsoft 365」の複数サービスで障害が発生しており、OpenAIの「ChatGPT」とAnthropicの「Claude」のMicrosoft 3...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003172/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/"
     },
     {
-      "title_ja": "「好機が来た」――なぜ今Sakana AIは、イチからAIモデルを作るのか　“新たな一手”のねらいを聞いた",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "/goalを使わずStopフックを自作したら、Claude Codeが止まらず使用量が増え続けた",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "既存モデルの活用に注力してきたSakana AIが、自社で一からAIモデルの開発を始めた。なぜ今なのか。背景や狙いを聞いた。...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "Claude Codeを、作業が終わるまで止めないようにしたい。そう考えて、/goalを使わずStopフックを自作しました。すると、Claudeが止まらなくなり...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003141/"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/kagaribilab/articles/claude-code-stop-hook-loop"
     },
     {
-      "title_ja": "Googleの社内専用コーディングAI「GfG」、その全容　Geminiに社内データ1兆トークン学習させ開発　所要時間半減の業務も",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "サブエージェントの「すべて通りました」を、AI に確かめさせる Skill",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "米Googleなどに所属する研究者らが10月に発表した論文「Customizing an LLM for Enterprise Software Enginee...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "AI エージェントは、仕事をサブエージェント（自分が立てる別の AI。以下、子）に任せられます。子は任せた側（以下、親）の会話を見ておらず、依頼文だけを読んで動...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/13/2000003110/"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/itoken_lab/articles/delegating-work-with-without"
     },
     {
-      "title_ja": "AI面接官とは？人事向けに導入手順とツール比較・費用を解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "AnyModelBot v0.1.38：スキルの保存とライブラリ、ボット同士の受け渡し、「わたしについて」",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#24540;&#21215;&#25968;&#12364;&#22679;&#12360;&#12427;&#12383;&#12403;&#123...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "こんにちは。AnyModelBot の共同開発者の Malachi です。2026年11月15日に v0.1.38 を公開しました。いまダウンロードできる版はこ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/14/278515/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e9%259d%25a2%25e6%258e%25a5%25e5%25ae%2598%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e4%25ba%25ba%25e4%25ba%258b%25e5%2590%2591%25e3%2581%2591%25e3%2581%25ab%25e5%25b0%258e%25e5%2585%25a5%25e6%2589%258b%25e9%25a0%2586%25e3%2581%25a8%25e3%2583%2584%25e3%2583%25bc%25e3%2583%25ab%25e6%25af%2594%25e8%25bc%2583%25e3%2583%25bb"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/malachi_amb/articles/41309700ac0fe0"
     },
     {
-      "title_ja": "AIエージェントの労務活用 入退社・社会保険手続きの自動化範囲と導入手順を解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "ぬゆちのサクサクVibe Coding入門",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#20837;&#36864;&#31038;&#12398;&#12383;&#12403;&#12395;&#26360;&#39006;&#124...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "AI と一緒にコードを書くための、短い入門書です。ブラウザで使える Gemini への頼み方、プロジェクトごと任せられる Claude Code の使い方、そし...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/14/278518/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2581%25ae%25e5%258a%25b4%25e5%258b%2599%25e6%25b4%25bb%25e7%2594%25a8-%25e5%2585%25a5%25e9%2580%2580%25e7%25a4%25be%25e3%2583%25bb%25e7%25a4%25be%25e4%25bc%259a%25e4%25bf%259d%25e9%2599%25ba%25e6%2589%258b%25e7%25b6%259a"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/nuyuchi/books/nuyuchi-sakusaku-vibe-coding-intro"
     },
     {
-      "title_ja": "AIエージェントを人事・採用に活用！自動化できる4つの業務と注意点",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "opencodexでAnthropic/OpenAI形式のリクエストをローカルのQwen2.5-32Bに流してみた",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>&#25505;&#29992;&#23455;&#21209;&#12395;&#21152;&#12360;&#12390;&#20837;&#310...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "これは何を試した記事か lidge-jun/opencodex(npm: @bitkyc08/opencodex、MIT)は、OpenAI Codex・Clau...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/14/278521/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2582%25a8%25e3%2583%25bc%25e3%2582%25b8%25e3%2582%25a7%25e3%2583%25b3%25e3%2583%2588%25e3%2582%2592%25e4%25ba%25ba%25e4%25ba%258b%25e3%2583%25bb%25e6%258e%25a1%25e7%2594%25a8%25e3%2581%25ab%25e6%25b4%25bb%25e7%2594%25a8%25ef%25bc%2581%25e8%2587%25aa%25e5%258b%2595%25e5%258c%2596%25e3%2581%25a7%25e3%2581%258d%25e3%2582%258b"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/matsushima_a/articles/day-047-opencodex-provider-proxy-api-translation"
     },
     {
-      "title_ja": "Announcing new builds for 13 November 2026",
-      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "実機造形の壁！「サポートが外れない（TR-001）」と窓枠破損（v10）からの断面見直し",
+      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p>Hello Windows Insiders,</p> <p>Today, we’re releasing new Windows 11 Insider ...",
+        "技術・実践に関する重要アップデートと最新機能の公開",
+        "CAD画面でどれだけきれいに見えても、実際に3Dプリンターで出力してみると「支えが固くて取れない」「剥がそうとしたら部品が折れた」という壁にぶつかります。 今回...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "Copilot / Windows",
-      "category_desc": "一次情報・PC",
-      "source": "Windows Blog",
-      "url": "https://blogs.windows.com/windows-insider/2026/11/13/announcing-new-builds-for-13-november-2026/"
+      "tag": "技術・実践",
+      "category_desc": "エンジニア技術・実践ノウハウ",
+      "source": "Zenn (AI)",
+      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-03-bus-section-dr-and-failures"
     }
   ]
 }
