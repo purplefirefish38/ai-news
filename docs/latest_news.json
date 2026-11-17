@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026/11/16 09:48 JST",
+  "updated_at": "2026/11/17 12:27 JST",
   "articles": [
-    {
-      "title_ja": "Our new blog for science",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "The OpenAI science blog shares new findings, practical methods, and firsthand ac...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/our-new-blog-for-science"
-    },
     {
       "title_ja": "A step toward defining the Standard Model on a lattice",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -30,14 +16,140 @@
       "url": "https://openai.com/index/step-toward-defining-the-standard-model"
     },
     {
+      "title_ja": "The King’s Trust and OpenAI launch £1m partnership",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/the-kings-trust-and-openai"
+    },
+    {
+      "title_ja": "At Holiday Extras, dots get to work before anyone asks",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Dots deliver launch reports unprompted, flag issues people might miss, and talk ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots"
+    },
+    {
+      "title_ja": "Advancing computer-use agents for healthcare teams",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+    },
+    {
+      "title_ja": "More ways to move care forward with ChatGPT for Healthcare",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Introducing computer-use agents, improved clinical answers, and new healthcare p...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+    },
+    {
+      "title_ja": "Our first phase of embedded assessments",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, an...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+    },
+    {
+      "title_ja": "LVMH’s Media Division 発表: strategic partnership with OpenAI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "LVMH’s Media Division and OpenAI announce a partnership to support journalism wi...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/lvmh-media-division-partnership"
+    },
+    {
+      "title_ja": "Science at the Frontier: scientists use ChatGPTの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Explore how more than 1,800 scientists use ChatGPT in research. See findings on ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/science-at-the-frontier"
+    },
+    {
+      "title_ja": "Broadening access to AI for scientists",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 re...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+    },
+    {
+      "title_ja": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "New tools, practical guidance, and partnerships will help prevent, detect and re...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/strengthening-online-child-safety"
+    },
+    {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Anthropic files S-1 with the SEC for proposed initial public offering Today, Ant...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 5,
+      "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -98,118 +210,6 @@
       "category_desc": "一次情報・公式",
       "source": "Microsoft Official",
       "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
-    },
-    {
-      "title_ja": "【新発表】the Microsoft Copilot harness: Unlocking the potential of truly multi-model agentic work",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>If you want to compete, you need to be multi-model. And if you want to take a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/"
-    },
-    {
-      "title_ja": "【追記あり】M365障害、ChatGPT／Claudeのコネクタにも影響　「ほとんどのリクエストで動作しない」",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "「Microsoft 365」の複数サービスで障害が発生しており、OpenAIの「ChatGPT」とAnthropicの「Claude」のMicrosoft 3...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/"
-    },
-    {
-      "title_ja": "/goalを使わずStopフックを自作したら、Claude Codeが止まらず使用量が増え続けた",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "Claude Codeを、作業が終わるまで止めないようにしたい。そう考えて、/goalを使わずStopフックを自作しました。すると、Claudeが止まらなくなり...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/kagaribilab/articles/claude-code-stop-hook-loop"
-    },
-    {
-      "title_ja": "サブエージェントの「すべて通りました」を、AI に確かめさせる Skill",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "AI エージェントは、仕事をサブエージェント（自分が立てる別の AI。以下、子）に任せられます。子は任せた側（以下、親）の会話を見ておらず、依頼文だけを読んで動...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/itoken_lab/articles/delegating-work-with-without"
-    },
-    {
-      "title_ja": "AnyModelBot v0.1.38：スキルの保存とライブラリ、ボット同士の受け渡し、「わたしについて」",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "こんにちは。AnyModelBot の共同開発者の Malachi です。2026年11月15日に v0.1.38 を公開しました。いまダウンロードできる版はこ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/malachi_amb/articles/41309700ac0fe0"
-    },
-    {
-      "title_ja": "ぬゆちのサクサクVibe Coding入門",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "AI と一緒にコードを書くための、短い入門書です。ブラウザで使える Gemini への頼み方、プロジェクトごと任せられる Claude Code の使い方、そし...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/nuyuchi/books/nuyuchi-sakusaku-vibe-coding-intro"
-    },
-    {
-      "title_ja": "opencodexでAnthropic/OpenAI形式のリクエストをローカルのQwen2.5-32Bに流してみた",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "これは何を試した記事か lidge-jun/opencodex(npm: @bitkyc08/opencodex、MIT)は、OpenAI Codex・Clau...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/matsushima_a/articles/day-047-opencodex-provider-proxy-api-translation"
-    },
-    {
-      "title_ja": "実機造形の壁！「サポートが外れない（TR-001）」と窓枠破損（v10）からの断面見直し",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "CAD画面でどれだけきれいに見えても、実際に3Dプリンターで出力してみると「支えが固くて取れない」「剥がそうとしたら部品が折れた」という壁にぶつかります。 今回...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/sunwood_ai_labs/articles/20261114-nekoneko-03-bus-section-dr-and-failures"
     }
   ]
 }
