@@ -1,113 +1,43 @@
 {
-  "updated_at": "2026/11/17 12:27 JST",
+  "updated_at": "2026/11/18 11:45 JST",
   "articles": [
     {
-      "title_ja": "A step toward defining the Standard Model on a lattice",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Explore a candidate nonperturbative lattice definition of the Standard Model and...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/step-toward-defining-the-standard-model"
-    },
-    {
-      "title_ja": "The King’s Trust and OpenAI launch £1m partnership",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/the-kings-trust-and-openai"
-    },
-    {
-      "title_ja": "At Holiday Extras, dots get to work before anyone asks",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Dots deliver launch reports unprompted, flag issues people might miss, and talk ...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/holiday-extras-dots"
-    },
-    {
-      "title_ja": "Advancing computer-use agents for healthcare teams",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
-    },
-    {
-      "title_ja": "More ways to move care forward with ChatGPT for Healthcare",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Introducing computer-use agents, improved clinical answers, and new healthcare p...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
-    },
-    {
-      "title_ja": "Our first phase of embedded assessments",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, an...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
-    },
-    {
       "title_ja": "LVMH’s Media Division 発表: strategic partnership with OpenAI",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "LVMH’s Media Division and OpenAI announce a partnership to support journalism wi...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/lvmh-media-division-partnership"
     },
     {
+      "title_ja": "Revolut raises ambition without lowering the barの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/revolut"
+    },
+    {
       "title_ja": "Science at the Frontier: scientists use ChatGPTの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Explore how more than 1,800 scientists use ChatGPT in research. See findings on ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -140,6 +70,90 @@
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/strengthening-online-child-safety"
+    },
+    {
+      "title_ja": "Strengthening NATO and allied cyber defenses with AI",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "How OpenAI is working with NATO and allied cyber agencies to help trusted defend...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+    },
+    {
+      "title_ja": "Astra for Law leads in legal intelligence",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Ever...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/astra-law-6-2"
+    },
+    {
+      "title_ja": "【新発表】OpenAI for Chile",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI and the Government of Chile are partnering to support responsible AI adop...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-openai-for-chile"
+    },
+    {
+      "title_ja": "【新発表】ChatGPT for Sales",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales"
+    },
+    {
+      "title_ja": "【新発表】GPT-6.2 Astra and Sol",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, com...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+    },
+    {
+      "title_ja": "Ignite 2026: Building the frontier ecosystem",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Satya Nadella, Microsoft Chairman and CEO, delivered the opening keynote at I...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -184,32 +198,18 @@
       "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
     },
     {
-      "title_ja": "From AI ambition to business impact",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "title_ja": "Announcing new builds for 16 November 2026",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Most business leaders I meet no longer need to be convinced that AI works. Th...",
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p>Hello Windows Insiders,</p> <p>Today, we’re releasing new Windows 11 Insider ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"
-    },
-    {
-      "title_ja": "Scaling AI value without losing control: Lessons from Frontier Firms",
-      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
-        "<p>Results are widespread. Value at scale is not, and that gap is what this year...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Copilot / Microsoft",
-      "category_desc": "一次情報・公式",
-      "source": "Microsoft Official",
-      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
+      "importance": 3,
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/windows-insider/2026/11/16/announcing-new-builds-for-16-november-2026/"
     }
   ]
 }
