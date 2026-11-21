@@ -1,145 +1,61 @@
 {
-  "updated_at": "2026/11/20 11:03 JST",
+  "updated_at": "2026/11/21 10:59 JST",
   "articles": [
     {
-      "title_ja": "Managing frontier AI risk: From training to deployment",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI explains how it manages frontier AI risk from training through deployment...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/managing-frontier-ai-risk"
-    },
-    {
-      "title_ja": "Research acceleration: The jagged frontier",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "OpenAI measures how coding agents are accelerating AI research, where their perf...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier"
-    },
-    {
-      "title_ja": "Sumitomo Life’s leaders helped teams adopt ChatGPT Enterpriseの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, a...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life"
-    },
-    {
-      "title_ja": "Inside the Codex sandbox",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "See how Codex runs commands on your machine while enforcing the filesystem and n...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/inside-the-codex-sandbox"
-    },
-    {
-      "title_ja": "The Silent Consensus",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI cou...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/the-silent-consensus"
-    },
-    {
-      "title_ja": "Deploying Daybreak Red",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Explore a reference architecture for supervised security investigations with Day...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red"
-    },
-    {
-      "title_ja": "See PR scans in action",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Watch a walkthrough of PR scans and see how the presenter reviews scan results i...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/learn/pr-scans-demo"
-    },
-    {
-      "title_ja": "Explore the Codex Security Plugin",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Watch a demo of the Codex Security Plugin and see the workflow in action, from g...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo"
-    },
-    {
-      "title_ja": "Get started with Daybreak Blue",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the se...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
-    },
-    {
       "title_ja": "OpenAI’s Performance Factory keeps ChatGPT fastの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "Learn how OpenAI built the Performance Factory, a system of Codex-powered workfl...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    },
+    {
+      "title_ja": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations fou...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/hebbia"
+    },
+    {
+      "title_ja": "Can AI help scientists identify promising drug candidates?",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "MedChemBench evaluates how well AI models interpret molecular structures, reason...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/introducing-medchembench"
+    },
+    {
+      "title_ja": "Combatting adversarial distillation",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "OpenAI’s layered approach to adversarial distillation combines model training, s...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/combatting-adversarial-distillation"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -156,6 +72,20 @@
       "url": "https://www.anthropic.com/news/s1-sec"
     },
     {
+      "title_ja": "Anthropic 発表: closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
+        "Anthropic announces closing of initial public offering, including full exercise ...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Claude / Anthropic",
+      "category_desc": "一次情報・公式",
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news/ipo-close"
+    },
+    {
       "title_ja": "Anthropic prices initial public offering",
       "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
@@ -168,20 +98,6 @@
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-    },
-    {
-      "title_ja": "Anthropic launches roadsfor proposed initial public offeringの仕組みと解説",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
-      "points": [
-        "Claude / Anthropicに関する重要アップデートと最新機能の公開",
-        "Anthropic launches roadshow for proposed initial public offering...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 4,
-      "tag": "Claude / Anthropic",
-      "category_desc": "一次情報・公式",
-      "source": "Anthropic News",
-      "url": "https://www.anthropic.com/news/roadshow-launch"
     },
     {
       "title_ja": "Ignite 2026: Building the frontier ecosystem",
@@ -210,6 +126,90 @@
       "category_desc": "一次情報・公式",
       "source": "Microsoft Official",
       "url": "https://blogs.microsoft.com/blog/2026/11/12/from-ai-ambition-to-business-impact/"
+    },
+    {
+      "title_ja": "Scaling AI value without losing control: Lessons from Frontier Firms",
+      "headline": "Microsoft Officialによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "Copilot / Microsoftに関する重要アップデートと最新機能の公開",
+        "<p>Results are widespread. Value at scale is not, and that gap is what this year...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "Copilot / Microsoft",
+      "category_desc": "一次情報・公式",
+      "source": "Microsoft Official",
+      "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
+    },
+    {
+      "title_ja": "AI人事とは？採用・評価・労務で任せてよい業務と導入時の注意点",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>AI&#20154;&#20107;&#12392;&#12399;&#12289;&#25505;&#29992;&#12539;&#35413;&#2...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/20/278548/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e4%25ba%25ba%25e4%25ba%258b%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%258e%25a1%25e7%2594%25a8%25e3%2583%25bb%25e8%25a9%2595%25e4%25be%25a1%25e3%2583%25bb%25e5%258a%25b4%25e5%258b%2599%25e3%2581%25a7%25e4%25bb%25bb%25e3%2581%259b%25e3%2581%25a6%25e3%2582%2588%25e3%2581%2584%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8"
+    },
+    {
+      "title_ja": "AIマーケティングとは？種類・活用分野10選と企業事例をわかりやすく解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>ChatGPT&#12391;&#24195;&#21578;&#12467;&#12500;&#12540;&#12434;&#20316;&#1242...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/20/278551/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2583%259e%25e3%2583%25bc%25e3%2582%25b1%25e3%2583%2586%25e3%2582%25a3%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e7%25a8%25ae%25e9%25a1%259e%25e3%2583%25bb%25e6%25b4%25bb%25e7%2594%25a8%25e5%2588%2586%25e9%2587%258e10%25e9%2581%25b8%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad"
+    },
+    {
+      "title_ja": "Hybrid intelligence on the Web: 【新発表】Aion Instruct and Prompt API in Microsoft Edge",
+      "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "Copilot / Windowsに関する重要アップデートと最新機能の公開",
+        "<p>Rapidly evolving AI capabilities are redefining what sites can do for users o...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "Copilot / Windows",
+      "category_desc": "一次情報・PC",
+      "source": "Windows Blog",
+      "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+    },
+    {
+      "title_ja": "ヒューマノイドからAIビジョンまで、三菱電機「Serendie Automation」の具体像",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "三菱電機は、FA向けの新たな統合ソリューションブランドとして「Serendie Automation」を展開することを発表した。後編では「Serendie Au...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news045.html"
+    },
+    {
+      "title_ja": "ベテランPMが辞めても失いたくない「暗黙知」を“生成AI面談”で残す　東京ガス系が実践したノウハウ継承術",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "熟練者が退職した後も、プロジェクト管理の経験や判断基準を組織に残すにはどうすればよいのか。東京ガスｉネットが実践した、暗黙知を組織の資産に変える実践手法と、具体...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/20/news021.html"
     }
   ]
 }
