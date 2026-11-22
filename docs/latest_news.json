@@ -1,57 +1,15 @@
 {
-  "updated_at": "2026/11/21 10:59 JST",
+  "updated_at": "2026/11/22 09:59 JST",
   "articles": [
     {
-      "title_ja": "OpenAI’s Performance Factory keeps ChatGPT fastの仕組みと解説",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Learn how OpenAI built the Performance Factory, a system of Codex-powered workfl...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
-    },
-    {
-      "title_ja": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations fou...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/business/customer-stories/hebbia"
-    },
-    {
-      "title_ja": "Can AI help scientists identify promising drug candidates?",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "MedChemBench evaluates how well AI models interpret molecular structures, reason...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/introducing-medchembench"
-    },
-    {
       "title_ja": "Combatting adversarial distillation",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
         "OpenAI’s layered approach to adversarial distillation combines model training, s...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "ChatGPT / OpenAI",
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
@@ -59,13 +17,13 @@
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Anthropic files S-1 with the SEC for proposed initial public offering Today, Ant...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -73,13 +31,13 @@
     },
     {
       "title_ja": "Anthropic 発表: closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Anthropic announces closing of initial public offering, including full exercise ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 4,
+      "importance": 5,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -142,74 +100,116 @@
       "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
     },
     {
-      "title_ja": "AI人事とは？採用・評価・労務で任せてよい業務と導入時の注意点",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "車体形状を変えながら空力性能をAI予測、AutodeskがNVIDIAとの技術統合を計画",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>AI&#20154;&#20107;&#12392;&#12399;&#12289;&#25505;&#29992;&#12539;&#35413;&#2...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "米Autodeskは、自動車デザイナー向けソリューション「Autodesk NavPack」にNVIDIAの技術を統合する計画を発表した。対応するAIモデルアー...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/20/278548/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e4%25ba%25ba%25e4%25ba%258b%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e6%258e%25a1%25e7%2594%25a8%25e3%2583%25bb%25e8%25a9%2595%25e4%25be%25a1%25e3%2583%25bb%25e5%258a%25b4%25e5%258b%2599%25e3%2581%25a7%25e4%25bb%25bb%25e3%2581%259b%25e3%2581%25a6%25e3%2582%2588%25e3%2581%2584%25e6%25a5%25ad%25e5%258b%2599%25e3%2581%25a8"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news029.html"
     },
     {
-      "title_ja": "AIマーケティングとは？種類・活用分野10選と企業事例をわかりやすく解説",
-      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "日立が「フィジカルAI」で狙う“5年で事業規模2倍”の勝算　3.5万人の新会社トップが語る「戦略の2本柱」とは？",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "国内トレンドに関する重要アップデートと最新機能の公開",
-        "<p>ChatGPT&#12391;&#24195;&#21578;&#12467;&#12500;&#12540;&#12434;&#20316;&#1242...",
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "日立製作所は2027年4月、米国子会社2社を統合し、27カ国・約3万5000人規模のデジタル新会社「Hitachi Digital」を発足させる。CEO兼Cha...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "国内トレンド",
-      "category_desc": "国内ニュース・トレンド",
-      "source": "AINOW",
-      "url": "https://ainow.ai/2026/11/20/278551/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e3%2583%259e%25e3%2583%25bc%25e3%2582%25b1%25e3%2583%2586%25e3%2582%25a3%25e3%2583%25b3%25e3%2582%25b0%25e3%2581%25a8%25e3%2581%25af%25ef%25bc%259f%25e7%25a8%25ae%25e9%25a1%259e%25e3%2583%25bb%25e6%25b4%25bb%25e7%2594%25a8%25e5%2588%2586%25e9%2587%258e10%25e9%2581%25b8%25e3%2581%25a8%25e4%25bc%2581%25e6%25a5%25ad"
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/business/articles/2611/20/news024.html"
     },
     {
-      "title_ja": "Hybrid intelligence on the Web: 【新発表】Aion Instruct and Prompt API in Microsoft Edge",
+      "title_ja": "Microsoft、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "米Microsoftは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、AIによるサイバー攻撃に対抗するためのAI...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003368/"
+    },
+    {
+      "title_ja": "「Muse」専用メアド、無料で作成可能に　AIが送受信を代理",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "米Metaは、AIエージェント「Muse」専用のメールアドレスについて、無料ユーザーを含む全ユーザーが取得できるようになったと発表した。...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003372/"
+    },
+    {
+      "title_ja": "Antigravityを他社AIから操作すると「垢BAN」？　注意点をGoogle Cloud日本法人に聞いた",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "「Google Antigravity」を他社のAIツールを介して利用すると規約違反でアカウント停止の可能性があるとXなどで話題になっている。Google Cl...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003353/"
+    },
+    {
+      "title_ja": "京大がAI依存チェックリスト公開　「当てはまるものあれば、しばらくAI触らないで」",
+      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "points": [
+        "国内ビジネスに関する重要アップデートと最新機能の公開",
+        "京都大学の学生相談部門は「AIに悩みを相談する際に気をつけて欲しいこと」と題した文書を公開した。...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 3,
+      "tag": "国内ビジネス",
+      "category_desc": "国内ニュース・導入事例",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/20/2000003378/"
+    },
+    {
+      "title_ja": "Announcing new builds for 20 November 2026",
       "headline": "Windows Blogによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "Copilot / Windowsに関する重要アップデートと最新機能の公開",
-        "<p>Rapidly evolving AI capabilities are redefining what sites can do for users o...",
+        "<p>Hello Windows Insiders,</p> <p>Today, we’re releasing new Windows 11 Insider ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "Copilot / Windows",
       "category_desc": "一次情報・PC",
       "source": "Windows Blog",
-      "url": "https://blogs.windows.com/msedgedev/2026/11/19/hybrid-intelligence-on-the-web-introducing-aion-instruct-and-prompt-api-in-microsoft-edge/"
+      "url": "https://blogs.windows.com/windows-insider/2026/11/20/announcing-new-builds-for-20-november-2026/"
     },
     {
-      "title_ja": "ヒューマノイドからAIビジョンまで、三菱電機「Serendie Automation」の具体像",
+      "title_ja": "AIで成果を出す企業ほど「人を増やす」？　“通説”を否定する調査結果をIDCが発表",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "三菱電機は、FA向けの新たな統合ソリューションブランドとして「Serendie Automation」を展開することを発表した。後編では「Serendie Au...",
+        "「AIが普及すれば企業の人員は減る」という通説と食い違う調査結果を、IDCが発表した。AI投資で高いROIを得ている組織ほど、今後の増員を見込む割合が高い。AI...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/20/news045.html"
-    },
-    {
-      "title_ja": "ベテランPMが辞めても失いたくない「暗黙知」を“生成AI面談”で残す　東京ガス系が実践したノウハウ継承術",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "熟練者が退職した後も、プロジェクト管理の経験や判断基準を組織に残すにはどうすればよいのか。東京ガスｉネットが実践した、暗黙知を組織の資産に変える実践手法と、具体...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2611/20/news021.html"
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2611/21/news003.html"
     }
   ]
 }
