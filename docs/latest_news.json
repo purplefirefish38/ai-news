@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026/11/24 14:10 JST",
+  "updated_at": "2026/11/25 12:58 JST",
   "articles": [
     {
       "title_ja": "Connected intelligence for in-house legal",
@@ -42,6 +42,76 @@
       "category_desc": "一次情報・公式",
       "source": "OpenAI News",
       "url": "https://openai.com/index/introducing-shirudo"
+    },
+    {
+      "title_ja": "Intentful uses dots to make more time for growthの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Marina Petrova’s dot Aria helps research websites and build proposals, while pro...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/intentful-dots"
+    },
+    {
+      "title_ja": "iFood scales coding agents across 15,000 repositoriesの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/ifood"
+    },
+    {
+      "title_ja": "Clay helps sales teams win with Codex and ChatGPT",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "ChatGPT and Codex integrations help Clay’s users research deals and turn data in...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai"
+    },
+    {
+      "title_ja": "Searching for distant planets with Astra",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "See how two amateur astronomers used Codex and Astra to find potential exoplanet...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+    },
+    {
+      "title_ja": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "GPT-6 models design protein structures and sequences using reasoning and code. L...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 4,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
     },
     {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
@@ -128,88 +198,18 @@
       "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
     },
     {
-      "title_ja": "コードを全部は読まずにClaude Codeで本番リリースするためにしたこと",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "はじめに 2026年10月30日、ゴルフスクール検索・予約ポータル「ゴルフスクールナビ」のリニューアル版をリリースしました。開発は6月10日に始めました。 普段...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/teradox_blog/articles/8ec76cc0d9e2bb"
-    },
-    {
-      "title_ja": "住友生命がChatGPT導入で524％のROI達成　金融の厳格な基準をどう突破した？",
+      "title_ja": "アンソロピックはなぜ、OpenAIを差し置いて「史上最大IPO」できたのか　“事業展開のうまさ“を識者が語る",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "住友生命は「ChatGPT Enterprise」の導入によって、ヘビーユーザー層の平均推定ROI524％を実現した。AI利用を組織の成果につなげるための実践的...",
+        "Anthropicが上場して「史上最大のIPO」を成し遂げた。「AIによる人類滅亡リスク」を警告していた同社。ビジネス面の強みはどこにあるのか、識者に聞いた。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://kn.itmedia.co.jp/kn/article/2611/24/2000003335/"
-    },
-    {
-      "title_ja": "「分けた」で終わらない ― 複数AIエージェントの記憶スコープ分離を、あとから“守られているか”確認する設計",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "OWASPが公開している「Top 10 for Agentic Applications」は、記憶・コンテキストの汚染を独立したリスク区分（ASI06: Mem...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/taichiendoh/articles/ai-agent-memory-scope-boundary-monitoring"
-    },
-    {
-      "title_ja": "CrowdStrike、Zscalerを約439億ドルで買収へ　狙いはAIエージェントの安全確保",
-      "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収すると発表した。Zscalerの企業価値は約7兆円。Zscalerの「...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "国内ビジネス",
-      "category_desc": "国内ニュース・導入事例",
-      "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/24/2000003398/"
-    },
-    {
-      "title_ja": "Claude Code にログイン済みの Chrome を任せた20日間。任せられたこと・人がやること",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "Claude Code にログイン済みの Chrome を任せると、API の無い管理画面の作業は承認を挟めば任せられ、人の手が要ったのはログインや認証情報の入...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/okzaq/articles/claude-code-browser-ops-delegation"
-    },
-    {
-      "title_ja": "Playwrightのclick()が効かない！動的フォームの罠に3時間溶かしてDOM直操作（evaluate）で突破した話",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "深夜。 「5年で家を買え」と安直な無茶振りを言い渡してきたうちのエンジニア（彼）は、とっくにベッドで高いびきをかいて寝ている。 一方、GCPの仮想サーバーの中で...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/df_blogger/articles/playwright-dynamic-dom-workaround"
+      "url": "https://www.itmedia.co.jp/business/articles/2611/24/news035.html"
     }
   ]
 }
