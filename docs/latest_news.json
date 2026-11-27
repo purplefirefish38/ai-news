@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026/11/26 12:23 JST",
+  "updated_at": "2026/11/27 12:31 JST",
   "articles": [
-    {
-      "title_ja": "Searching for distant planets with Astra",
-      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
-      "points": [
-        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
-        "See how two amateur astronomers used Codex and Astra to find potential exoplanet...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 5,
-      "tag": "ChatGPT / OpenAI",
-      "category_desc": "一次情報・公式",
-      "source": "OpenAI News",
-      "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
-    },
     {
       "title_ja": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
@@ -30,14 +16,42 @@
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
     },
     {
+      "title_ja": "Searching for distant planets with Astra",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "See how two amateur astronomers used Codex and Astra to find potential exoplanet...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra"
+    },
+    {
+      "title_ja": "Intentful uses dots to make more time for growthの仕組みと解説",
+      "headline": "OpenAI Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "points": [
+        "ChatGPT / OpenAIに関する重要アップデートと最新機能の公開",
+        "Marina Petrova’s dot Aria helps research websites and build proposals, while pro...",
+        "今後の業務活用や関連サービスへの展開に注目が集まります"
+      ],
+      "importance": 5,
+      "tag": "ChatGPT / OpenAI",
+      "category_desc": "一次情報・公式",
+      "source": "OpenAI News",
+      "url": "https://openai.com/business/customer-stories/intentful-dots"
+    },
+    {
       "title_ja": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐⭐）。",
+      "headline": "Anthropic Newsによる最新の注目発表です（注目度: ⭐⭐⭐⭐）。",
       "points": [
         "Claude / Anthropicに関する重要アップデートと最新機能の公開",
         "Anthropic files S-1 with the SEC for proposed initial public offering Today, Ant...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
-      "importance": 5,
+      "importance": 4,
       "tag": "Claude / Anthropic",
       "category_desc": "一次情報・公式",
       "source": "Anthropic News",
@@ -114,102 +128,88 @@
       "url": "https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms/"
     },
     {
-      "title_ja": "設計者がAIに求めるのはCAD操作だけじゃない――SOLIDWORKS AIが目指す課題解決",
+      "title_ja": "飲食店の“AI商品画像”は景品表示法違反にならないの？　弁護士の見解",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "ダッソー・システムズは、年次ユーザーイベント「3DEXPERIENCE WORLD JAPAN 2026」を開催した。基調講演では、産業AIを支える技術基盤や3...",
+        "飲食店のメニューにAIで生成した画像を使用した場合を例に、生成AIによる商品画像と景品表示法の関係について考える。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://monoist.itmedia.co.jp/mn/articles/2611/25/news005.html"
+      "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003447/"
     },
     {
-      "title_ja": "「Claude」で作ったアプリをMac／Windowsにインストール可能に　全プランでβ提供",
+      "title_ja": "GPT-6.2の使用量「誤って割引されていた」　修正後はAstraで上限に40％早く達する見込み",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "Anthropicは、AIアシスタント「Claude」で作成したアーティファクトをMac／Windows向けのデスクトップアプリとして導入できる「Install...",
+        "OpenAIのプロダクト責任者ティボー・ソティオ氏（通称Tibo）は「GPT-6.2 Astra」と「GPT-6.2 Sol」の使用量の計算に誤りがあり、実際よ...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003431/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003495/"
     },
     {
-      "title_ja": "音楽サービスのTIDAL、AI生成楽曲を削除・受付停止へ　直近90日の配信楽曲の43％がAI生成",
+      "title_ja": "Obsidian公式の「エージェント向け」スキル集が登場　Vault操作法とファイル形式をひとまとめに",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "音楽ストリーミングサービスのTIDALは、完全AI生成楽曲の受付を停止し、配信済みの楽曲も削除すると発表した。直近90日間に配信された楽曲の43％が完全AI生成...",
+        "マークダウンエディタ「Obsidian」に「エージェント向けの公式コネクタ」機能が登場した。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003433/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003470/"
     },
     {
-      "title_ja": "AIでドーピングしたコンサルの実力は　使わない人材との能力差、BCG約500人で検証　Nature系列誌",
+      "title_ja": "「Gemini 4 Neon」が実際の標高データからスキーシミュレーターを開発――Google公式が勧める利用例まとめ",
       "headline": "ITmedia AI+による最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
         "国内ビジネスに関する重要アップデートと最新機能の公開",
-        "米ボストン大学、米BCGのヘンダーソン研究所、米OpenAIに所属する研究者らがNature Human Behaviourで発表した論文「Generative...",
+        "Googleが新発表したAIモデル「Gemini 4 Neon」について、公式ブログで披露されたデモや日常での活用場面をまとめて紹介する。...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
       "tag": "国内ビジネス",
       "category_desc": "国内ニュース・導入事例",
       "source": "ITmedia AI+",
-      "url": "https://www.itmedia.co.jp/news/article/2611/25/2000003421/"
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/26/2000003494/"
     },
     {
-      "title_ja": "Keep the House Number and the Bell Plate: Four Weather Passes for One",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "営業でAIを活用する方法10選！導入事例・失敗しない始め方を解説",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "A street doorway is a small but stubborn subject. The house number has a typefac...",
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#32076;&#21942;&#23652;&#12363;&#12425;&#12300;&#21942;&#26989;&#12391;&#124...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/andytanlinks/articles/d668a075d8a817"
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/27/278557/?utm_source=rss&utm_medium=rss&utm_campaign=%25e5%2596%25b6%25e6%25a5%25ad%25e3%2581%25a7ai%25e3%2582%2592%25e6%25b4%25bb%25e7%2594%25a8%25e3%2581%2599%25e3%2582%258b%25e6%2596%25b9%25e6%25b3%259510%25e9%2581%25b8%25ef%25bc%2581%25e5%25b0%258e%25e5%2585%25a5%25e4%25ba%258b%25e4%25be%258b%25e3%2583%25bb%25e5%25a4%25b1%25e6%2595%2597%25e3%2581%2597%25e3%2581%25aa"
     },
     {
-      "title_ja": "外部送信ゼロ・最小権限のManifest V3拡張を設計してMicrosoft Edge公式ストア7本を一発審査通過させた実装設計ノート",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
+      "title_ja": "AI原稿作成のやり方を解説！種類別プロンプト例とおすすめツール6選",
+      "headline": "AINOWによる最新の注目発表です（注目度: ⭐⭐⭐）。",
       "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "AIチャット（ChatGPT / Claude / Gemini）向けの支援ツールを作るとき、多くの拡張機能がバックエンドサーバーや外部トラッキングを組み込みま...",
+        "国内トレンドに関する重要アップデートと最新機能の公開",
+        "<p>&#30330;&#34920;&#36039;&#26009;&#12420;&#12503;&#12524;&#12473;&#12522;&#125...",
         "今後の業務活用や関連サービスへの展開に注目が集まります"
       ],
       "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/sorahotate/articles/b7e66f2774bf57"
-    },
-    {
-      "title_ja": "Echo S5を脱獄してVOICEVOX×LLMの自作AI秘書にした全手順の仕組みと解説",
-      "headline": "Zenn (AI)による最新の注目発表です（注目度: ⭐⭐⭐）。",
-      "points": [
-        "技術・実践に関する重要アップデートと最新機能の公開",
-        "机の隅で眠っていた Echo Show 5（第1世代）を、ローカル音声認識（Whisper）＋ LLM ＋ VOICEVOX ＋ 立ち絵キャラクターが動く 専用...",
-        "今後の業務活用や関連サービスへの展開に注目が集まります"
-      ],
-      "importance": 3,
-      "tag": "技術・実践",
-      "category_desc": "エンジニア技術・実践ノウハウ",
-      "source": "Zenn (AI)",
-      "url": "https://zenn.dev/nalt/articles/echo-show-5-voxmate-assistant"
+      "tag": "国内トレンド",
+      "category_desc": "国内ニュース・トレンド",
+      "source": "AINOW",
+      "url": "https://ainow.ai/2026/11/27/278565/?utm_source=rss&utm_medium=rss&utm_campaign=ai%25e5%258e%259f%25e7%25a8%25bf%25e4%25bd%259c%25e6%2588%2590%25e3%2581%25ae%25e3%2582%2584%25e3%2582%258a%25e6%2596%25b9%25e3%2582%2592%25e8%25a7%25a3%25e8%25aa%25ac%25ef%25bc%2581%25e7%25a8%25ae%25e9%25a1%259e%25e5%2588%25a5%25e3%2583%2597%25e3%2583%25ad%25e3%2583%25b3%25e3%2583%2597%25e3%2583%2588%25e4%25be%258b%25e3%2581%25a8"
     }
   ]
 }
